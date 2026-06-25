@@ -98,33 +98,9 @@
     ]
   },
   {
-    "listing": "/attendees/ElyseVetter/about.html",
+    "listing": "/attendees/RashelleHoffman/about.html",
     "items": [
-      "/attendees/ElyseVetter/code/template.html"
-    ]
-  },
-  {
-    "listing": "/attendees/AinsleyVanderGiesen/about.html",
-    "items": [
-      "/attendees/AinsleyVanderGiesen/code/template.html"
-    ]
-  },
-  {
-    "listing": "/attendees/RachelHantman/about.html",
-    "items": [
-      "/attendees/RachelHantman/code/template.html"
-    ]
-  },
-  {
-    "listing": "/attendees/DominicJavonillo/about.html",
-    "items": [
-      "/attendees/DominicJavonillo/code/template.html"
-    ]
-  },
-  {
-    "listing": "/attendees/SaraFortinMiller/about.html",
-    "items": [
-      "/attendees/SaraFortinMiller/code/template.html"
+      "/attendees/RashelleHoffman/code/template.html"
     ]
   },
   {
@@ -134,15 +110,40 @@
     ]
   },
   {
-    "listing": "/attendees/RashelleHoffman/about.html",
+    "listing": "/attendees/SaraFortinMiller/about.html",
     "items": [
-      "/attendees/RashelleHoffman/code/template.html"
+      "/attendees/SaraFortinMiller/code/template.html"
+    ]
+  },
+  {
+    "listing": "/attendees/DominicJavonillo/about.html",
+    "items": [
+      "/attendees/DominicJavonillo/code/template.html"
+    ]
+  },
+  {
+    "listing": "/attendees/RachelHantman/about.html",
+    "items": [
+      "/attendees/RachelHantman/code/template.html"
+    ]
+  },
+  {
+    "listing": "/attendees/AinsleyVanderGiesen/about.html",
+    "items": [
+      "/attendees/AinsleyVanderGiesen/code/template.html"
+    ]
+  },
+  {
+    "listing": "/attendees/ElyseVetter/about.html",
+    "items": [
+      "/attendees/ElyseVetter/code/template.html"
     ]
   },
   {
     "listing": "/attendees/KameronSuire/about.html",
     "items": [
-      "/attendees/KameronSuire/code/template.html"
+      "/attendees/KameronSuire/code/template.html",
+      "/attendees/KameronSuire/code/whole-game.html"
     ]
   },
   {
