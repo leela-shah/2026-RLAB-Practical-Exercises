@@ -1,0 +1,23 @@
+---
+title: "Practical Exercise Template"
+subtitle: "First Github Pull"
+author: Leela Shah
+date: 2026-06-24
+image: "https://github.com/bhelsel/2026-RLAB-Practical-Exercises/raw/main/images/rlab-placeholder.png"
+execute: 
+  echo: true
+  eval: true
+  message: false
+  warning: false
+---
+
+**Assignment**. Practice pulling.
+
+
+```{r}
+
+# Hello R-LAB
+message("My first GitHub push worked!")
+x <- 1:10
+mean(x)
+```
