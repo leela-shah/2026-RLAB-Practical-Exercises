@@ -74,7 +74,7 @@
     "href": "attendees/LeelaShah/code/template.html#introduction-to-dplyr",
     "title": "Practical Exercise Template",
     "section": "Introduction to dplyr",
-    "text": "Introduction to dplyr\n\nlibrary(dplyr)\n\nstarwars |&gt;\n  mutate(name, bmi = mass / ((height / 100)^2)) |&gt;\n  select(name:mass, bmi)\n\n# A tibble: 87 × 4\n   name               height  mass   bmi\n   &lt;chr&gt;               &lt;int&gt; &lt;dbl&gt; &lt;dbl&gt;\n 1 Luke Skywalker        172    77  26.0\n 2 C-3PO                 167    75  26.9\n 3 R2-D2                  96    32  34.7\n 4 Darth Vader           202   136  33.3\n 5 Leia Organa           150    49  21.8\n 6 Owen Lars             178   120  37.9\n 7 Beru Whitesun Lars    165    75  27.5\n 8 R5-D4                  97    32  34.0\n 9 Biggs Darklighter     183    84  25.1\n10 Obi-Wan Kenobi        182    77  23.2\n# ℹ 77 more rows"
+    "text": "Introduction to dplyr\n\nlibrary(dplyr)\n\nstarwars |&gt;\n  mutate(bmi = mass / ((height / 100)^2)) |&gt;\n  select(name:mass, bmi)\n\n# A tibble: 87 × 4\n   name               height  mass   bmi\n   &lt;chr&gt;               &lt;int&gt; &lt;dbl&gt; &lt;dbl&gt;\n 1 Luke Skywalker        172    77  26.0\n 2 C-3PO                 167    75  26.9\n 3 R2-D2                  96    32  34.7\n 4 Darth Vader           202   136  33.3\n 5 Leia Organa           150    49  21.8\n 6 Owen Lars             178   120  37.9\n 7 Beru Whitesun Lars    165    75  27.5\n 8 R5-D4                  97    32  34.0\n 9 Biggs Darklighter     183    84  25.1\n10 Obi-Wan Kenobi        182    77  23.2\n# ℹ 77 more rows"
   },
   {
     "objectID": "attendees/LeelaShah/code/template.html#introduction-to-ggplot2",
@@ -151,7 +151,7 @@
     "href": "attendees/YasamanRazavi/code/template.html#introduction-to-dplyr",
     "title": "Practical Exercise Template",
     "section": "Introduction to dplyr",
-    "text": "Introduction to dplyr\n\nlibrary(dplyr)\n\nstarwars |&gt;\n  mutate(name, bmi = mass / ((height / 100)^2)) |&gt;\n  select(name:mass, bmi)\n\n# A tibble: 87 × 4\n   name               height  mass   bmi\n   &lt;chr&gt;               &lt;int&gt; &lt;dbl&gt; &lt;dbl&gt;\n 1 Luke Skywalker        172    77  26.0\n 2 C-3PO                 167    75  26.9\n 3 R2-D2                  96    32  34.7\n 4 Darth Vader           202   136  33.3\n 5 Leia Organa           150    49  21.8\n 6 Owen Lars             178   120  37.9\n 7 Beru Whitesun Lars    165    75  27.5\n 8 R5-D4                  97    32  34.0\n 9 Biggs Darklighter     183    84  25.1\n10 Obi-Wan Kenobi        182    77  23.2\n# ℹ 77 more rows"
+    "text": "Introduction to dplyr\n\nlibrary(dplyr)\n\nstarwars |&gt;\n  mutate(bmi = mass / ((height / 100)^2)) |&gt;\n  select(name:mass, bmi)\n\n# A tibble: 87 × 4\n   name               height  mass   bmi\n   &lt;chr&gt;               &lt;int&gt; &lt;dbl&gt; &lt;dbl&gt;\n 1 Luke Skywalker        172    77  26.0\n 2 C-3PO                 167    75  26.9\n 3 R2-D2                  96    32  34.7\n 4 Darth Vader           202   136  33.3\n 5 Leia Organa           150    49  21.8\n 6 Owen Lars             178   120  37.9\n 7 Beru Whitesun Lars    165    75  27.5\n 8 R5-D4                  97    32  34.0\n 9 Biggs Darklighter     183    84  25.1\n10 Obi-Wan Kenobi        182    77  23.2\n# ℹ 77 more rows"
   },
   {
     "objectID": "attendees/YasamanRazavi/code/template.html#introduction-to-ggplot2",
@@ -172,7 +172,7 @@
     "href": "attendees/JackieAdedokun/code/template.html#introduction-to-dplyr",
     "title": "Practical Exercise Template",
     "section": "Introduction to dplyr",
-    "text": "Introduction to dplyr\n\nlibrary(dplyr)\n\nstarwars |&gt;\n  mutate(name, bmi = mass / ((height / 100)^2)) |&gt;\n  select(name:mass, bmi)\n\n# A tibble: 87 × 4\n   name               height  mass   bmi\n   &lt;chr&gt;               &lt;int&gt; &lt;dbl&gt; &lt;dbl&gt;\n 1 Luke Skywalker        172    77  26.0\n 2 C-3PO                 167    75  26.9\n 3 R2-D2                  96    32  34.7\n 4 Darth Vader           202   136  33.3\n 5 Leia Organa           150    49  21.8\n 6 Owen Lars             178   120  37.9\n 7 Beru Whitesun Lars    165    75  27.5\n 8 R5-D4                  97    32  34.0\n 9 Biggs Darklighter     183    84  25.1\n10 Obi-Wan Kenobi        182    77  23.2\n# ℹ 77 more rows"
+    "text": "Introduction to dplyr\n\nlibrary(dplyr)\n\nstarwars |&gt;\n  mutate(bmi = mass / ((height / 100)^2)) |&gt;\n  select(name:mass, bmi)\n\n# A tibble: 87 × 4\n   name               height  mass   bmi\n   &lt;chr&gt;               &lt;int&gt; &lt;dbl&gt; &lt;dbl&gt;\n 1 Luke Skywalker        172    77  26.0\n 2 C-3PO                 167    75  26.9\n 3 R2-D2                  96    32  34.7\n 4 Darth Vader           202   136  33.3\n 5 Leia Organa           150    49  21.8\n 6 Owen Lars             178   120  37.9\n 7 Beru Whitesun Lars    165    75  27.5\n 8 R5-D4                  97    32  34.0\n 9 Biggs Darklighter     183    84  25.1\n10 Obi-Wan Kenobi        182    77  23.2\n# ℹ 77 more rows"
   },
   {
     "objectID": "attendees/JackieAdedokun/code/template.html#introduction-to-ggplot2",
@@ -207,7 +207,7 @@
     "href": "attendees/MorganBrucks/code/template.html#introduction-to-dplyr",
     "title": "Practical Exercise Template",
     "section": "Introduction to dplyr",
-    "text": "Introduction to dplyr\n\nlibrary(dplyr)\n\nstarwars |&gt;\n  mutate(name, bmi = mass / ((height / 100)^2)) |&gt;\n  select(name:mass, bmi)\n\n# A tibble: 87 × 4\n   name               height  mass   bmi\n   &lt;chr&gt;               &lt;int&gt; &lt;dbl&gt; &lt;dbl&gt;\n 1 Luke Skywalker        172    77  26.0\n 2 C-3PO                 167    75  26.9\n 3 R2-D2                  96    32  34.7\n 4 Darth Vader           202   136  33.3\n 5 Leia Organa           150    49  21.8\n 6 Owen Lars             178   120  37.9\n 7 Beru Whitesun Lars    165    75  27.5\n 8 R5-D4                  97    32  34.0\n 9 Biggs Darklighter     183    84  25.1\n10 Obi-Wan Kenobi        182    77  23.2\n# ℹ 77 more rows"
+    "text": "Introduction to dplyr\n\nlibrary(dplyr)\n\nstarwars |&gt;\n  mutate(bmi = mass / ((height / 100)^2)) |&gt;\n  select(name:mass, bmi)\n\n# A tibble: 87 × 4\n   name               height  mass   bmi\n   &lt;chr&gt;               &lt;int&gt; &lt;dbl&gt; &lt;dbl&gt;\n 1 Luke Skywalker        172    77  26.0\n 2 C-3PO                 167    75  26.9\n 3 R2-D2                  96    32  34.7\n 4 Darth Vader           202   136  33.3\n 5 Leia Organa           150    49  21.8\n 6 Owen Lars             178   120  37.9\n 7 Beru Whitesun Lars    165    75  27.5\n 8 R5-D4                  97    32  34.0\n 9 Biggs Darklighter     183    84  25.1\n10 Obi-Wan Kenobi        182    77  23.2\n# ℹ 77 more rows"
   },
   {
     "objectID": "attendees/MorganBrucks/code/template.html#introduction-to-ggplot2",
@@ -228,7 +228,7 @@
     "href": "attendees/WasayefBsharat/code/template.html#introduction-to-dplyr",
     "title": "Practical Exercise Template",
     "section": "Introduction to dplyr",
-    "text": "Introduction to dplyr\n\nlibrary(dplyr)\n\nstarwars |&gt;\n  mutate(name, bmi = mass / ((height / 100)^2)) |&gt;\n  select(name:mass, bmi)\n\n# A tibble: 87 × 4\n   name               height  mass   bmi\n   &lt;chr&gt;               &lt;int&gt; &lt;dbl&gt; &lt;dbl&gt;\n 1 Luke Skywalker        172    77  26.0\n 2 C-3PO                 167    75  26.9\n 3 R2-D2                  96    32  34.7\n 4 Darth Vader           202   136  33.3\n 5 Leia Organa           150    49  21.8\n 6 Owen Lars             178   120  37.9\n 7 Beru Whitesun Lars    165    75  27.5\n 8 R5-D4                  97    32  34.0\n 9 Biggs Darklighter     183    84  25.1\n10 Obi-Wan Kenobi        182    77  23.2\n# ℹ 77 more rows"
+    "text": "Introduction to dplyr\n\nlibrary(dplyr)\n\nstarwars |&gt;\n  mutate(bmi = mass / ((height / 100)^2)) |&gt;\n  select(name:mass, bmi)\n\n# A tibble: 87 × 4\n   name               height  mass   bmi\n   &lt;chr&gt;               &lt;int&gt; &lt;dbl&gt; &lt;dbl&gt;\n 1 Luke Skywalker        172    77  26.0\n 2 C-3PO                 167    75  26.9\n 3 R2-D2                  96    32  34.7\n 4 Darth Vader           202   136  33.3\n 5 Leia Organa           150    49  21.8\n 6 Owen Lars             178   120  37.9\n 7 Beru Whitesun Lars    165    75  27.5\n 8 R5-D4                  97    32  34.0\n 9 Biggs Darklighter     183    84  25.1\n10 Obi-Wan Kenobi        182    77  23.2\n# ℹ 77 more rows"
   },
   {
     "objectID": "attendees/WasayefBsharat/code/template.html#introduction-to-ggplot2",
@@ -249,7 +249,7 @@
     "href": "attendees/JessicaKeller/code/template.html#introduction-to-dplyr",
     "title": "Practical Exercise Template",
     "section": "Introduction to dplyr",
-    "text": "Introduction to dplyr\n\nlibrary(dplyr)\n\nstarwars |&gt;\n  mutate(name, bmi = mass / ((height / 100)^2)) |&gt;\n  select(name:mass, bmi)\n\n# A tibble: 87 × 4\n   name               height  mass   bmi\n   &lt;chr&gt;               &lt;int&gt; &lt;dbl&gt; &lt;dbl&gt;\n 1 Luke Skywalker        172    77  26.0\n 2 C-3PO                 167    75  26.9\n 3 R2-D2                  96    32  34.7\n 4 Darth Vader           202   136  33.3\n 5 Leia Organa           150    49  21.8\n 6 Owen Lars             178   120  37.9\n 7 Beru Whitesun Lars    165    75  27.5\n 8 R5-D4                  97    32  34.0\n 9 Biggs Darklighter     183    84  25.1\n10 Obi-Wan Kenobi        182    77  23.2\n# ℹ 77 more rows"
+    "text": "Introduction to dplyr\n\nlibrary(dplyr)\n\nstarwars |&gt;\n  mutate(bmi = mass / ((height / 100)^2)) |&gt;\n  select(name:mass, bmi)\n\n# A tibble: 87 × 4\n   name               height  mass   bmi\n   &lt;chr&gt;               &lt;int&gt; &lt;dbl&gt; &lt;dbl&gt;\n 1 Luke Skywalker        172    77  26.0\n 2 C-3PO                 167    75  26.9\n 3 R2-D2                  96    32  34.7\n 4 Darth Vader           202   136  33.3\n 5 Leia Organa           150    49  21.8\n 6 Owen Lars             178   120  37.9\n 7 Beru Whitesun Lars    165    75  27.5\n 8 R5-D4                  97    32  34.0\n 9 Biggs Darklighter     183    84  25.1\n10 Obi-Wan Kenobi        182    77  23.2\n# ℹ 77 more rows"
   },
   {
     "objectID": "attendees/JessicaKeller/code/template.html#introduction-to-ggplot2",
@@ -263,424 +263,39 @@
     "href": "attendees/DavidTitus/about.html",
     "title": "David Titus",
     "section": "",
-    "text": "Practical Exercise Template\n\n\nAdjust the YAML each week when doing a new exercise\n\n\n\n\n\n\n\n\nJun 24, 2026\n\n\nDavid Titus\n\n\n\n\n\nNo matching items"
+    "text": "Week 1: Basics in R\n\n\nPractice Reading and Manipulating Data\n\n\n\n\n\n\n\n\nJun 24, 2026\n\n\nDavid Titus\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 1: Basics in R\n\n\nPractice Reading and Manipulating Data\n\n\n\n\n\n\n\n\nJun 24, 2026\n\n\nDavid Titus\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "attendees/StefaniBacaAtlas/about.html",
-    "href": "attendees/StefaniBacaAtlas/about.html",
-    "title": "Stephanie Baca-Atlas",
+    "objectID": "attendees/DavidTitus/code/week_1_exercise.html",
+    "href": "attendees/DavidTitus/code/week_1_exercise.html",
+    "title": "Week 1: Basics in R",
     "section": "",
-    "text": "Practical Exercise Template\n\n\nAdjust the YAML each week when doing a new exercise\n\n\n\n\n\n\n\n\nJun 24, 2026\n\n\nStefani Baca-Atlas\n\n\n\n\n\nNo matching items"
+    "text": "Assignment. Practice for Dr. Julianne Clina’s introduction to R presentation. This Quarto document will be used to practice my first GitHub pull request."
   },
   {
-    "objectID": "attendees/IanWeidling/about.html",
-    "href": "attendees/IanWeidling/about.html",
-    "title": "Ian Weidling",
-    "section": "",
-    "text": "Practical Exercise Template\n\n\nAdjust the YAML each week when doing a new exercise\n\n\n\n\n\n\n\n\nJun 24, 2026\n\n\nIan Weidling\n\n\n\n\n\nNo matching items"
+    "objectID": "attendees/DavidTitus/code/week_1_exercise.html#hello-r-lab",
+    "href": "attendees/DavidTitus/code/week_1_exercise.html#hello-r-lab",
+    "title": "Week 1: Basics in R",
+    "section": "Hello R-LAB",
+    "text": "Hello R-LAB\n\nlibrary(dplyr)\nmessage(\"My first GitHub push worked!\")\nx &lt;- 1:10\nmean(x)\n\n[1] 5.5"
   },
   {
-    "objectID": "attendees/ElhamGhanbarian/about.html",
-    "href": "attendees/ElhamGhanbarian/about.html",
-    "title": "Elham Ghanbarian",
-    "section": "",
-    "text": "Practical Exercise Template\n\n\nAdjust the YAML each week when doing a new exercise\n\n\n\n\n\n\n\n\nJun 24, 2026\n\n\nElham Ghanbarian\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "attendees/SullafaKadura/about.html",
-    "href": "attendees/SullafaKadura/about.html",
-    "title": "Sullafa Kadura",
-    "section": "",
-    "text": "Practical Exercise Template\n\n\nAdjust the YAML each week when doing a new exercise\n\n\n\n\n\n\n\n\nJun 24, 2026\n\n\nSullafa Kadura\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "attendees/KeithSmith/about.html",
-    "href": "attendees/KeithSmith/about.html",
-    "title": "Keith Smith",
-    "section": "",
-    "text": "Practical Exercise Template\n\n\nAdjust the YAML each week when doing a new exercise\n\n\n\n\n\n\n\n\nJun 24, 2026\n\n\nKeith Smith\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "attendees/KellieCollins/about.html",
-    "href": "attendees/KellieCollins/about.html",
-    "title": "Kellie Collins",
-    "section": "",
-    "text": "Practical Exercise Template\n\n\nAdjust the YAML each week when doing a new exercise\n\n\n\n\n\n\n\n\nJun 24, 2026\n\n\nKellie Collins\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "attendees/JulianneClina/about.html",
-    "href": "attendees/JulianneClina/about.html",
-    "title": "Julianne Clina",
-    "section": "",
-    "text": "Julianne Clina\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPractical Exercise Template\n\n\nAdjust the YAML each week when doing a new exercise\n\n\n\n\n\n\n\n\nJun 24, 2026\n\n\nJulianne Clina, PhD\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "attendees/MasonMcClarnon/about.html",
-    "href": "attendees/MasonMcClarnon/about.html",
-    "title": "Mason McClarnon",
-    "section": "",
-    "text": "Practical Exercise Template\n\n\nAdjust the YAML each week when doing a new exercise\n\n\n\n\n\n\n\n\nJun 24, 2026\n\n\nMason McClarnon\n\n\n\n\n\n\n\n\n\n\n\n\nThe Whole Game Practice\n\n\nAdjust the YAML each week when doing a new exercise\n\n\n\n\n\n\n\n\nJun 24, 2026\n\n\nMason McClarnon\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "attendees/MasonMcClarnon/code/template.html",
-    "href": "attendees/MasonMcClarnon/code/template.html",
+    "objectID": "attendees/StefaniBacaAtlas/code/template.html",
+    "href": "attendees/StefaniBacaAtlas/code/template.html",
     "title": "Practical Exercise Template",
     "section": "",
     "text": "Assignment. Add assignment details here. Update this section with the current week’s tasks or instructions, and any additional resources to complete the assignment."
   },
   {
-    "objectID": "attendees/MasonMcClarnon/code/template.html#introduction-to-dplyr",
-    "href": "attendees/MasonMcClarnon/code/template.html#introduction-to-dplyr",
+    "objectID": "attendees/StefaniBacaAtlas/code/template.html#introduction-to-dplyr",
+    "href": "attendees/StefaniBacaAtlas/code/template.html#introduction-to-dplyr",
     "title": "Practical Exercise Template",
     "section": "Introduction to dplyr",
-    "text": "Introduction to dplyr\n\nlibrary(dplyr)\n\nstarwars |&gt;\n  mutate(name, bmi = mass / ((height / 100)^2)) |&gt;\n  select(name:mass, bmi)\n\n# A tibble: 87 × 4\n   name               height  mass   bmi\n   &lt;chr&gt;               &lt;int&gt; &lt;dbl&gt; &lt;dbl&gt;\n 1 Luke Skywalker        172    77  26.0\n 2 C-3PO                 167    75  26.9\n 3 R2-D2                  96    32  34.7\n 4 Darth Vader           202   136  33.3\n 5 Leia Organa           150    49  21.8\n 6 Owen Lars             178   120  37.9\n 7 Beru Whitesun Lars    165    75  27.5\n 8 R5-D4                  97    32  34.0\n 9 Biggs Darklighter     183    84  25.1\n10 Obi-Wan Kenobi        182    77  23.2\n# ℹ 77 more rows"
+    "text": "Introduction to dplyr\n\nlibrary(dplyr)\n\nstarwars |&gt;\n  mutate(bmi = mass / ((height / 100)^2)) |&gt;\n  select(name:mass, bmi)\n\n# A tibble: 87 × 4\n   name               height  mass   bmi\n   &lt;chr&gt;               &lt;int&gt; &lt;dbl&gt; &lt;dbl&gt;\n 1 Luke Skywalker        172    77  26.0\n 2 C-3PO                 167    75  26.9\n 3 R2-D2                  96    32  34.7\n 4 Darth Vader           202   136  33.3\n 5 Leia Organa           150    49  21.8\n 6 Owen Lars             178   120  37.9\n 7 Beru Whitesun Lars    165    75  27.5\n 8 R5-D4                  97    32  34.0\n 9 Biggs Darklighter     183    84  25.1\n10 Obi-Wan Kenobi        182    77  23.2\n# ℹ 77 more rows"
   },
   {
-    "objectID": "attendees/MasonMcClarnon/code/template.html#introduction-to-ggplot2",
-    "href": "attendees/MasonMcClarnon/code/template.html#introduction-to-ggplot2",
-    "title": "Practical Exercise Template",
-    "section": "Introduction to ggplot2",
-    "text": "Introduction to ggplot2\n\nlibrary(ggplot2)\n\nggplot(mpg, aes(displ, hwy, colour = class)) +\n  geom_point()"
-  },
-  {
-    "objectID": "attendees/KameronSuire/code/whole-game.html",
-    "href": "attendees/KameronSuire/code/whole-game.html",
-    "title": "The Whole Game Practice",
-    "section": "",
-    "text": "Assignment. Practice for Dr. Julianne Clina’s introduction to R presentation. This Quarto document will be used to practice my first GitHub pull request.\n\n# Hello R-LAB\nmessage(\"My first GitHub push worked!\")\nx &lt;- 1:10\nmean(x)\n\n[1] 5.5"
-  },
-  {
-    "objectID": "attendees/RashelleHoffman/about.html",
-    "href": "attendees/RashelleHoffman/about.html",
-    "title": "Rashelle Hoffman",
-    "section": "",
-    "text": "Practical Exercise Template\n\n\nAdjust the YAML each week when doing a new exercise\n\n\n\n\n\n\n\n\nJun 24, 2026\n\n\nRashelle Hoffman\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "attendees/SadafSalehi/about.html",
-    "href": "attendees/SadafSalehi/about.html",
-    "title": "Sadaf Salehi",
-    "section": "",
-    "text": "Practical Exercise Template\n\n\nAdjust the YAML each week when doing a new exercise\n\n\n\n\n\n\n\n\nJun 24, 2026\n\n\nSadaf Salehi\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "attendees/SaraFortinMiller/about.html",
-    "href": "attendees/SaraFortinMiller/about.html",
-    "title": "Sara Fortin-Miller",
-    "section": "",
-    "text": "Practical Exercise Template\n\n\nAdjust the YAML each week when doing a new exercise\n\n\n\n\n\n\n\n\nJun 24, 2026\n\n\nSara Fortin-Miller\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "attendees/DominicJavonillo/about.html",
-    "href": "attendees/DominicJavonillo/about.html",
-    "title": "Dominic Javonillo",
-    "section": "",
-    "text": "Practical Exercise Template\n\n\nAdjust the YAML each week when doing a new exercise\n\n\n\n\n\n\n\n\nJun 24, 2026\n\n\nDominic Javonillo\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "attendees/RachelHantman/about.html",
-    "href": "attendees/RachelHantman/about.html",
-    "title": "Rachel Hantman",
-    "section": "",
-    "text": "Practical Exercise Template\n\n\nAdjust the YAML each week when doing a new exercise\n\n\n\n\n\n\n\n\nJun 24, 2026\n\n\nRachel Hantman\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "attendees/AinsleyVanderGiesen/about.html",
-    "href": "attendees/AinsleyVanderGiesen/about.html",
-    "title": "Ainsley VanderGiesen",
-    "section": "",
-    "text": "Practical Exercise Template\n\n\nAdjust the YAML each week when doing a new exercise\n\n\n\n\n\n\n\n\nJun 24, 2026\n\n\nAinsley VanderGiesen\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "attendees/ElyseVetter/about.html",
-    "href": "attendees/ElyseVetter/about.html",
-    "title": "Elyse Vetter",
-    "section": "",
-    "text": "Practical Exercise Template\n\n\nAdjust the YAML each week when doing a new exercise\n\n\n\n\n\n\n\n\nJun 24, 2026\n\n\nElyse Vetter\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "attendees/ElyseVetter/code/template.html",
-    "href": "attendees/ElyseVetter/code/template.html",
-    "title": "Practical Exercise Template",
-    "section": "",
-    "text": "Assignment. Add assignment details here. Update this section with the current week’s tasks or instructions, and any additional resources to complete the assignment."
-  },
-  {
-    "objectID": "attendees/ElyseVetter/code/template.html#introduction-to-dplyr",
-    "href": "attendees/ElyseVetter/code/template.html#introduction-to-dplyr",
-    "title": "Practical Exercise Template",
-    "section": "Introduction to dplyr",
-    "text": "Introduction to dplyr\n\nlibrary(dplyr)\n\nstarwars |&gt;\n  mutate(name, bmi = mass / ((height / 100)^2)) |&gt;\n  select(name:mass, bmi)\n\n# A tibble: 87 × 4\n   name               height  mass   bmi\n   &lt;chr&gt;               &lt;int&gt; &lt;dbl&gt; &lt;dbl&gt;\n 1 Luke Skywalker        172    77  26.0\n 2 C-3PO                 167    75  26.9\n 3 R2-D2                  96    32  34.7\n 4 Darth Vader           202   136  33.3\n 5 Leia Organa           150    49  21.8\n 6 Owen Lars             178   120  37.9\n 7 Beru Whitesun Lars    165    75  27.5\n 8 R5-D4                  97    32  34.0\n 9 Biggs Darklighter     183    84  25.1\n10 Obi-Wan Kenobi        182    77  23.2\n# ℹ 77 more rows"
-  },
-  {
-    "objectID": "attendees/ElyseVetter/code/template.html#introduction-to-ggplot2",
-    "href": "attendees/ElyseVetter/code/template.html#introduction-to-ggplot2",
-    "title": "Practical Exercise Template",
-    "section": "Introduction to ggplot2",
-    "text": "Introduction to ggplot2\n\nlibrary(ggplot2)\n\nggplot(mpg, aes(displ, hwy, colour = class)) +\n  geom_point()"
-  },
-  {
-    "objectID": "attendees/AinsleyVanderGiesen/code/template.html",
-    "href": "attendees/AinsleyVanderGiesen/code/template.html",
-    "title": "Practical Exercise Template",
-    "section": "",
-    "text": "Assignment. Add assignment details here. Update this section with the current week’s tasks or instructions, and any additional resources to complete the assignment."
-  },
-  {
-    "objectID": "attendees/AinsleyVanderGiesen/code/template.html#introduction-to-dplyr",
-    "href": "attendees/AinsleyVanderGiesen/code/template.html#introduction-to-dplyr",
-    "title": "Practical Exercise Template",
-    "section": "Introduction to dplyr",
-    "text": "Introduction to dplyr\n\nlibrary(dplyr)\n\nstarwars |&gt;\n  mutate(name, bmi = mass / ((height / 100)^2)) |&gt;\n  select(name:mass, bmi)\n\n# A tibble: 87 × 4\n   name               height  mass   bmi\n   &lt;chr&gt;               &lt;int&gt; &lt;dbl&gt; &lt;dbl&gt;\n 1 Luke Skywalker        172    77  26.0\n 2 C-3PO                 167    75  26.9\n 3 R2-D2                  96    32  34.7\n 4 Darth Vader           202   136  33.3\n 5 Leia Organa           150    49  21.8\n 6 Owen Lars             178   120  37.9\n 7 Beru Whitesun Lars    165    75  27.5\n 8 R5-D4                  97    32  34.0\n 9 Biggs Darklighter     183    84  25.1\n10 Obi-Wan Kenobi        182    77  23.2\n# ℹ 77 more rows"
-  },
-  {
-    "objectID": "attendees/AinsleyVanderGiesen/code/template.html#introduction-to-ggplot2",
-    "href": "attendees/AinsleyVanderGiesen/code/template.html#introduction-to-ggplot2",
-    "title": "Practical Exercise Template",
-    "section": "Introduction to ggplot2",
-    "text": "Introduction to ggplot2\n\nlibrary(ggplot2)\n\nggplot(mpg, aes(displ, hwy, colour = class)) +\n  geom_point()"
-  },
-  {
-    "objectID": "attendees/RachelHantman/code/template.html",
-    "href": "attendees/RachelHantman/code/template.html",
-    "title": "Practical Exercise Template",
-    "section": "",
-    "text": "Assignment. Add assignment details here. Update this section with the current week’s tasks or instructions, and any additional resources to complete the assignment."
-  },
-  {
-    "objectID": "attendees/RachelHantman/code/template.html#introduction-to-dplyr",
-    "href": "attendees/RachelHantman/code/template.html#introduction-to-dplyr",
-    "title": "Practical Exercise Template",
-    "section": "Introduction to dplyr",
-    "text": "Introduction to dplyr\n\nlibrary(dplyr)\n\nstarwars |&gt;\n  mutate(name, bmi = mass / ((height / 100)^2)) |&gt;\n  select(name:mass, bmi)\n\n# A tibble: 87 × 4\n   name               height  mass   bmi\n   &lt;chr&gt;               &lt;int&gt; &lt;dbl&gt; &lt;dbl&gt;\n 1 Luke Skywalker        172    77  26.0\n 2 C-3PO                 167    75  26.9\n 3 R2-D2                  96    32  34.7\n 4 Darth Vader           202   136  33.3\n 5 Leia Organa           150    49  21.8\n 6 Owen Lars             178   120  37.9\n 7 Beru Whitesun Lars    165    75  27.5\n 8 R5-D4                  97    32  34.0\n 9 Biggs Darklighter     183    84  25.1\n10 Obi-Wan Kenobi        182    77  23.2\n# ℹ 77 more rows"
-  },
-  {
-    "objectID": "attendees/RachelHantman/code/template.html#introduction-to-ggplot2",
-    "href": "attendees/RachelHantman/code/template.html#introduction-to-ggplot2",
-    "title": "Practical Exercise Template",
-    "section": "Introduction to ggplot2",
-    "text": "Introduction to ggplot2\n\nlibrary(ggplot2)\n\nggplot(mpg, aes(displ, hwy, colour = class)) +\n  geom_point()"
-  },
-  {
-    "objectID": "attendees/DominicJavonillo/code/template.html",
-    "href": "attendees/DominicJavonillo/code/template.html",
-    "title": "Practical Exercise Template",
-    "section": "",
-    "text": "Assignment. Add assignment details here. Update this section with the current week’s tasks or instructions, and any additional resources to complete the assignment."
-  },
-  {
-    "objectID": "attendees/DominicJavonillo/code/template.html#introduction-to-dplyr",
-    "href": "attendees/DominicJavonillo/code/template.html#introduction-to-dplyr",
-    "title": "Practical Exercise Template",
-    "section": "Introduction to dplyr",
-    "text": "Introduction to dplyr\n\nlibrary(dplyr)\n\nstarwars |&gt;\n  mutate(name, bmi = mass / ((height / 100)^2)) |&gt;\n  select(name:mass, bmi)\n\n# A tibble: 87 × 4\n   name               height  mass   bmi\n   &lt;chr&gt;               &lt;int&gt; &lt;dbl&gt; &lt;dbl&gt;\n 1 Luke Skywalker        172    77  26.0\n 2 C-3PO                 167    75  26.9\n 3 R2-D2                  96    32  34.7\n 4 Darth Vader           202   136  33.3\n 5 Leia Organa           150    49  21.8\n 6 Owen Lars             178   120  37.9\n 7 Beru Whitesun Lars    165    75  27.5\n 8 R5-D4                  97    32  34.0\n 9 Biggs Darklighter     183    84  25.1\n10 Obi-Wan Kenobi        182    77  23.2\n# ℹ 77 more rows"
-  },
-  {
-    "objectID": "attendees/DominicJavonillo/code/template.html#introduction-to-ggplot2",
-    "href": "attendees/DominicJavonillo/code/template.html#introduction-to-ggplot2",
-    "title": "Practical Exercise Template",
-    "section": "Introduction to ggplot2",
-    "text": "Introduction to ggplot2\n\nlibrary(ggplot2)\n\nggplot(mpg, aes(displ, hwy, colour = class)) +\n  geom_point()"
-  },
-  {
-    "objectID": "attendees/SaraFortinMiller/code/template.html",
-    "href": "attendees/SaraFortinMiller/code/template.html",
-    "title": "Practical Exercise Template",
-    "section": "",
-    "text": "Assignment. Add assignment details here. Update this section with the current week’s tasks or instructions, and any additional resources to complete the assignment."
-  },
-  {
-    "objectID": "attendees/SaraFortinMiller/code/template.html#introduction-to-dplyr",
-    "href": "attendees/SaraFortinMiller/code/template.html#introduction-to-dplyr",
-    "title": "Practical Exercise Template",
-    "section": "Introduction to dplyr",
-    "text": "Introduction to dplyr\n\nlibrary(dplyr)\n\nstarwars |&gt;\n  mutate(name, bmi = mass / ((height / 100)^2)) |&gt;\n  select(name:mass, bmi)\n\n# A tibble: 87 × 4\n   name               height  mass   bmi\n   &lt;chr&gt;               &lt;int&gt; &lt;dbl&gt; &lt;dbl&gt;\n 1 Luke Skywalker        172    77  26.0\n 2 C-3PO                 167    75  26.9\n 3 R2-D2                  96    32  34.7\n 4 Darth Vader           202   136  33.3\n 5 Leia Organa           150    49  21.8\n 6 Owen Lars             178   120  37.9\n 7 Beru Whitesun Lars    165    75  27.5\n 8 R5-D4                  97    32  34.0\n 9 Biggs Darklighter     183    84  25.1\n10 Obi-Wan Kenobi        182    77  23.2\n# ℹ 77 more rows"
-  },
-  {
-    "objectID": "attendees/SaraFortinMiller/code/template.html#introduction-to-ggplot2",
-    "href": "attendees/SaraFortinMiller/code/template.html#introduction-to-ggplot2",
-    "title": "Practical Exercise Template",
-    "section": "Introduction to ggplot2",
-    "text": "Introduction to ggplot2\n\nlibrary(ggplot2)\n\nggplot(mpg, aes(displ, hwy, colour = class)) +\n  geom_point()"
-  },
-  {
-    "objectID": "attendees/SadafSalehi/code/template.html",
-    "href": "attendees/SadafSalehi/code/template.html",
-    "title": "Practical Exercise Template",
-    "section": "",
-    "text": "Assignment. Add assignment details here. Update this section with the current week’s tasks or instructions, and any additional resources to complete the assignment."
-  },
-  {
-    "objectID": "attendees/SadafSalehi/code/template.html#introduction-to-dplyr",
-    "href": "attendees/SadafSalehi/code/template.html#introduction-to-dplyr",
-    "title": "Practical Exercise Template",
-    "section": "Introduction to dplyr",
-    "text": "Introduction to dplyr\n\nlibrary(dplyr)\n\nstarwars |&gt;\n  mutate(name, bmi = mass / ((height / 100)^2)) |&gt;\n  select(name:mass, bmi)\n\n# A tibble: 87 × 4\n   name               height  mass   bmi\n   &lt;chr&gt;               &lt;int&gt; &lt;dbl&gt; &lt;dbl&gt;\n 1 Luke Skywalker        172    77  26.0\n 2 C-3PO                 167    75  26.9\n 3 R2-D2                  96    32  34.7\n 4 Darth Vader           202   136  33.3\n 5 Leia Organa           150    49  21.8\n 6 Owen Lars             178   120  37.9\n 7 Beru Whitesun Lars    165    75  27.5\n 8 R5-D4                  97    32  34.0\n 9 Biggs Darklighter     183    84  25.1\n10 Obi-Wan Kenobi        182    77  23.2\n# ℹ 77 more rows"
-  },
-  {
-    "objectID": "attendees/SadafSalehi/code/template.html#introduction-to-ggplot2",
-    "href": "attendees/SadafSalehi/code/template.html#introduction-to-ggplot2",
-    "title": "Practical Exercise Template",
-    "section": "Introduction to ggplot2",
-    "text": "Introduction to ggplot2\n\nlibrary(ggplot2)\n\nggplot(mpg, aes(displ, hwy, colour = class)) +\n  geom_point()"
-  },
-  {
-    "objectID": "attendees/RashelleHoffman/code/template.html",
-    "href": "attendees/RashelleHoffman/code/template.html",
-    "title": "Practical Exercise Template",
-    "section": "",
-    "text": "Assignment. Add assignment details here. Update this section with the current week’s tasks or instructions, and any additional resources to complete the assignment."
-  },
-  {
-    "objectID": "attendees/RashelleHoffman/code/template.html#introduction-to-dplyr",
-    "href": "attendees/RashelleHoffman/code/template.html#introduction-to-dplyr",
-    "title": "Practical Exercise Template",
-    "section": "Introduction to dplyr",
-    "text": "Introduction to dplyr\n\nlibrary(dplyr)\n\nstarwars |&gt;\n  mutate(name, bmi = mass / ((height / 100)^2)) |&gt;\n  select(name:mass, bmi)\n\n# A tibble: 87 × 4\n   name               height  mass   bmi\n   &lt;chr&gt;               &lt;int&gt; &lt;dbl&gt; &lt;dbl&gt;\n 1 Luke Skywalker        172    77  26.0\n 2 C-3PO                 167    75  26.9\n 3 R2-D2                  96    32  34.7\n 4 Darth Vader           202   136  33.3\n 5 Leia Organa           150    49  21.8\n 6 Owen Lars             178   120  37.9\n 7 Beru Whitesun Lars    165    75  27.5\n 8 R5-D4                  97    32  34.0\n 9 Biggs Darklighter     183    84  25.1\n10 Obi-Wan Kenobi        182    77  23.2\n# ℹ 77 more rows"
-  },
-  {
-    "objectID": "attendees/RashelleHoffman/code/template.html#introduction-to-ggplot2",
-    "href": "attendees/RashelleHoffman/code/template.html#introduction-to-ggplot2",
-    "title": "Practical Exercise Template",
-    "section": "Introduction to ggplot2",
-    "text": "Introduction to ggplot2\n\nlibrary(ggplot2)\n\nggplot(mpg, aes(displ, hwy, colour = class)) +\n  geom_point()"
-  },
-  {
-    "objectID": "attendees/KameronSuire/code/template.html",
-    "href": "attendees/KameronSuire/code/template.html",
-    "title": "Practical Exercise Template",
-    "section": "",
-    "text": "Assignment. Add assignment details here. Update this section with the current week’s tasks or instructions, and any additional resources to complete the assignment."
-  },
-  {
-    "objectID": "attendees/KameronSuire/code/template.html#introduction-to-dplyr",
-    "href": "attendees/KameronSuire/code/template.html#introduction-to-dplyr",
-    "title": "Practical Exercise Template",
-    "section": "Introduction to dplyr",
-    "text": "Introduction to dplyr\n\nlibrary(dplyr)\n\nstarwars |&gt;\n  mutate(name, bmi = mass / ((height / 100)^2)) |&gt;\n  select(name:mass, bmi)\n\n# A tibble: 87 × 4\n   name               height  mass   bmi\n   &lt;chr&gt;               &lt;int&gt; &lt;dbl&gt; &lt;dbl&gt;\n 1 Luke Skywalker        172    77  26.0\n 2 C-3PO                 167    75  26.9\n 3 R2-D2                  96    32  34.7\n 4 Darth Vader           202   136  33.3\n 5 Leia Organa           150    49  21.8\n 6 Owen Lars             178   120  37.9\n 7 Beru Whitesun Lars    165    75  27.5\n 8 R5-D4                  97    32  34.0\n 9 Biggs Darklighter     183    84  25.1\n10 Obi-Wan Kenobi        182    77  23.2\n# ℹ 77 more rows"
-  },
-  {
-    "objectID": "attendees/KameronSuire/code/template.html#introduction-to-ggplot2",
-    "href": "attendees/KameronSuire/code/template.html#introduction-to-ggplot2",
-    "title": "Practical Exercise Template",
-    "section": "Introduction to ggplot2",
-    "text": "Introduction to ggplot2\n\nlibrary(ggplot2)\n\nggplot(mpg, aes(displ, hwy, colour = class)) +\n  geom_point()"
-  },
-  {
-    "objectID": "attendees/KameronSuire/about.html",
-    "href": "attendees/KameronSuire/about.html",
-    "title": "Kameron Suire",
-    "section": "",
-    "text": "Practical Exercise Template\n\n\nAdjust the YAML each week when doing a new exercise\n\n\n\n\n\n\n\n\nJun 24, 2026\n\n\nKameron Suire\n\n\n\n\n\n\n\n\n\n\n\n\nThe Whole Game Practice\n\n\nMy First GitHub Push\n\n\n\n\n\n\n\n\nJun 24, 2026\n\n\nKameron Suire, PhD\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "attendees/MasonMcClarnon/code/whole-game.html",
-    "href": "attendees/MasonMcClarnon/code/whole-game.html",
-    "title": "The Whole Game Practice",
-    "section": "",
-    "text": "message(\"The Message is pretty neat\")\n\nx &lt;- 1:10\nmean(x)\n\n[1] 5.5"
-  },
-  {
-    "objectID": "attendees/JulianneClina/code/template.html",
-    "href": "attendees/JulianneClina/code/template.html",
-    "title": "Practical Exercise Template",
-    "section": "",
-    "text": "Assignment. Add assignment details here. Update this section with the current week’s tasks or instructions, and any additional resources to complete the assignment."
-  },
-  {
-    "objectID": "attendees/JulianneClina/code/template.html#introduction-to-dplyr",
-    "href": "attendees/JulianneClina/code/template.html#introduction-to-dplyr",
-    "title": "Practical Exercise Template",
-    "section": "Introduction to dplyr",
-    "text": "Introduction to dplyr\n\nlibrary(dplyr)\n\nstarwars |&gt;\n  mutate(name, bmi = mass / ((height / 100)^2)) |&gt;\n  select(name:mass, bmi)\n\n# A tibble: 87 × 4\n   name               height  mass   bmi\n   &lt;chr&gt;               &lt;int&gt; &lt;dbl&gt; &lt;dbl&gt;\n 1 Luke Skywalker        172    77  26.0\n 2 C-3PO                 167    75  26.9\n 3 R2-D2                  96    32  34.7\n 4 Darth Vader           202   136  33.3\n 5 Leia Organa           150    49  21.8\n 6 Owen Lars             178   120  37.9\n 7 Beru Whitesun Lars    165    75  27.5\n 8 R5-D4                  97    32  34.0\n 9 Biggs Darklighter     183    84  25.1\n10 Obi-Wan Kenobi        182    77  23.2\n# ℹ 77 more rows"
-  },
-  {
-    "objectID": "attendees/JulianneClina/code/template.html#introduction-to-ggplot2",
-    "href": "attendees/JulianneClina/code/template.html#introduction-to-ggplot2",
-    "title": "Practical Exercise Template",
-    "section": "Introduction to ggplot2",
-    "text": "Introduction to ggplot2\n\nlibrary(ggplot2)\n\nggplot(mpg, aes(displ, hwy, colour = class)) +\n  geom_point()"
-  },
-  {
-    "objectID": "attendees/KellieCollins/code/template.html",
-    "href": "attendees/KellieCollins/code/template.html",
-    "title": "Practical Exercise Template",
-    "section": "",
-    "text": "Assignment. Add assignment details here. Update this section with the current week’s tasks or instructions, and any additional resources to complete the assignment."
-  },
-  {
-    "objectID": "attendees/KellieCollins/code/template.html#introduction-to-dplyr",
-    "href": "attendees/KellieCollins/code/template.html#introduction-to-dplyr",
-    "title": "Practical Exercise Template",
-    "section": "Introduction to dplyr",
-    "text": "Introduction to dplyr\n\nlibrary(dplyr)\n\nstarwars |&gt;\n  mutate(name, bmi = mass / ((height / 100)^2)) |&gt;\n  select(name:mass, bmi)\n\n# A tibble: 87 × 4\n   name               height  mass   bmi\n   &lt;chr&gt;               &lt;int&gt; &lt;dbl&gt; &lt;dbl&gt;\n 1 Luke Skywalker        172    77  26.0\n 2 C-3PO                 167    75  26.9\n 3 R2-D2                  96    32  34.7\n 4 Darth Vader           202   136  33.3\n 5 Leia Organa           150    49  21.8\n 6 Owen Lars             178   120  37.9\n 7 Beru Whitesun Lars    165    75  27.5\n 8 R5-D4                  97    32  34.0\n 9 Biggs Darklighter     183    84  25.1\n10 Obi-Wan Kenobi        182    77  23.2\n# ℹ 77 more rows"
-  },
-  {
-    "objectID": "attendees/KellieCollins/code/template.html#introduction-to-ggplot2",
-    "href": "attendees/KellieCollins/code/template.html#introduction-to-ggplot2",
-    "title": "Practical Exercise Template",
-    "section": "Introduction to ggplot2",
-    "text": "Introduction to ggplot2\n\nlibrary(ggplot2)\n\nggplot(mpg, aes(displ, hwy, colour = class)) +\n  geom_point()"
-  },
-  {
-    "objectID": "attendees/KeithSmith/code/template.html",
-    "href": "attendees/KeithSmith/code/template.html",
-    "title": "Practical Exercise Template",
-    "section": "",
-    "text": "Assignment. Add assignment details here. Update this section with the current week’s tasks or instructions, and any additional resources to complete the assignment."
-  },
-  {
-    "objectID": "attendees/KeithSmith/code/template.html#introduction-to-dplyr",
-    "href": "attendees/KeithSmith/code/template.html#introduction-to-dplyr",
-    "title": "Practical Exercise Template",
-    "section": "Introduction to dplyr",
-    "text": "Introduction to dplyr\n\nlibrary(dplyr)\n\nstarwars |&gt;\n  mutate(name, bmi = mass / ((height / 100)^2)) |&gt;\n  select(name:mass, bmi)\n\n# A tibble: 87 × 4\n   name               height  mass   bmi\n   &lt;chr&gt;               &lt;int&gt; &lt;dbl&gt; &lt;dbl&gt;\n 1 Luke Skywalker        172    77  26.0\n 2 C-3PO                 167    75  26.9\n 3 R2-D2                  96    32  34.7\n 4 Darth Vader           202   136  33.3\n 5 Leia Organa           150    49  21.8\n 6 Owen Lars             178   120  37.9\n 7 Beru Whitesun Lars    165    75  27.5\n 8 R5-D4                  97    32  34.0\n 9 Biggs Darklighter     183    84  25.1\n10 Obi-Wan Kenobi        182    77  23.2\n# ℹ 77 more rows"
-  },
-  {
-    "objectID": "attendees/KeithSmith/code/template.html#introduction-to-ggplot2",
-    "href": "attendees/KeithSmith/code/template.html#introduction-to-ggplot2",
-    "title": "Practical Exercise Template",
-    "section": "Introduction to ggplot2",
-    "text": "Introduction to ggplot2\n\nlibrary(ggplot2)\n\nggplot(mpg, aes(displ, hwy, colour = class)) +\n  geom_point()"
-  },
-  {
-    "objectID": "attendees/SullafaKadura/code/template.html",
-    "href": "attendees/SullafaKadura/code/template.html",
-    "title": "Practical Exercise Template",
-    "section": "",
-    "text": "Assignment. Add assignment details here. Update this section with the current week’s tasks or instructions, and any additional resources to complete the assignment."
-  },
-  {
-    "objectID": "attendees/SullafaKadura/code/template.html#introduction-to-dplyr",
-    "href": "attendees/SullafaKadura/code/template.html#introduction-to-dplyr",
-    "title": "Practical Exercise Template",
-    "section": "Introduction to dplyr",
-    "text": "Introduction to dplyr\n\nlibrary(dplyr)\n\nstarwars |&gt;\n  mutate(name, bmi = mass / ((height / 100)^2)) |&gt;\n  select(name:mass, bmi)\n\n# A tibble: 87 × 4\n   name               height  mass   bmi\n   &lt;chr&gt;               &lt;int&gt; &lt;dbl&gt; &lt;dbl&gt;\n 1 Luke Skywalker        172    77  26.0\n 2 C-3PO                 167    75  26.9\n 3 R2-D2                  96    32  34.7\n 4 Darth Vader           202   136  33.3\n 5 Leia Organa           150    49  21.8\n 6 Owen Lars             178   120  37.9\n 7 Beru Whitesun Lars    165    75  27.5\n 8 R5-D4                  97    32  34.0\n 9 Biggs Darklighter     183    84  25.1\n10 Obi-Wan Kenobi        182    77  23.2\n# ℹ 77 more rows"
-  },
-  {
-    "objectID": "attendees/SullafaKadura/code/template.html#introduction-to-ggplot2",
-    "href": "attendees/SullafaKadura/code/template.html#introduction-to-ggplot2",
-    "title": "Practical Exercise Template",
-    "section": "Introduction to ggplot2",
-    "text": "Introduction to ggplot2\n\nlibrary(ggplot2)\n\nggplot(mpg, aes(displ, hwy, colour = class)) +\n  geom_point()"
-  },
-  {
-    "objectID": "attendees/ElhamGhanbarian/code/template.html",
-    "href": "attendees/ElhamGhanbarian/code/template.html",
-    "title": "Practical Exercise Template",
-    "section": "",
-    "text": "Assignment. Add assignment details here. Update this section with the current week’s tasks or instructions, and any additional resources to complete the assignment."
-  },
-  {
-    "objectID": "attendees/ElhamGhanbarian/code/template.html#introduction-to-dplyr",
-    "href": "attendees/ElhamGhanbarian/code/template.html#introduction-to-dplyr",
-    "title": "Practical Exercise Template",
-    "section": "Introduction to dplyr",
-    "text": "Introduction to dplyr\n\nlibrary(dplyr)\n\nstarwars |&gt;\n  mutate(name, bmi = mass / ((height / 100)^2)) |&gt;\n  select(name:mass, bmi)\n\n# A tibble: 87 × 4\n   name               height  mass   bmi\n   &lt;chr&gt;               &lt;int&gt; &lt;dbl&gt; &lt;dbl&gt;\n 1 Luke Skywalker        172    77  26.0\n 2 C-3PO                 167    75  26.9\n 3 R2-D2                  96    32  34.7\n 4 Darth Vader           202   136  33.3\n 5 Leia Organa           150    49  21.8\n 6 Owen Lars             178   120  37.9\n 7 Beru Whitesun Lars    165    75  27.5\n 8 R5-D4                  97    32  34.0\n 9 Biggs Darklighter     183    84  25.1\n10 Obi-Wan Kenobi        182    77  23.2\n# ℹ 77 more rows"
-  },
-  {
-    "objectID": "attendees/ElhamGhanbarian/code/template.html#introduction-to-ggplot2",
-    "href": "attendees/ElhamGhanbarian/code/template.html#introduction-to-ggplot2",
+    "objectID": "attendees/StefaniBacaAtlas/code/template.html#introduction-to-ggplot2",
+    "href": "attendees/StefaniBacaAtlas/code/template.html#introduction-to-ggplot2",
     "title": "Practical Exercise Template",
     "section": "Introduction to ggplot2",
     "text": "Introduction to ggplot2\n\nlibrary(ggplot2)\n\nggplot(mpg, aes(displ, hwy, colour = class)) +\n  geom_point()"
@@ -697,7 +312,7 @@
     "href": "attendees/IanWeidling/code/template.html#introduction-to-dplyr",
     "title": "Practical Exercise Template",
     "section": "Introduction to dplyr",
-    "text": "Introduction to dplyr\n\nlibrary(dplyr)\n\nstarwars |&gt;\n  mutate(name, bmi = mass / ((height / 100)^2)) |&gt;\n  select(name:mass, bmi)\n\n# A tibble: 87 × 4\n   name               height  mass   bmi\n   &lt;chr&gt;               &lt;int&gt; &lt;dbl&gt; &lt;dbl&gt;\n 1 Luke Skywalker        172    77  26.0\n 2 C-3PO                 167    75  26.9\n 3 R2-D2                  96    32  34.7\n 4 Darth Vader           202   136  33.3\n 5 Leia Organa           150    49  21.8\n 6 Owen Lars             178   120  37.9\n 7 Beru Whitesun Lars    165    75  27.5\n 8 R5-D4                  97    32  34.0\n 9 Biggs Darklighter     183    84  25.1\n10 Obi-Wan Kenobi        182    77  23.2\n# ℹ 77 more rows"
+    "text": "Introduction to dplyr\n\nlibrary(dplyr)\n\nstarwars |&gt;\n  mutate(bmi = mass / ((height / 100)^2)) |&gt;\n  select(name:mass, bmi)\n\n# A tibble: 87 × 4\n   name               height  mass   bmi\n   &lt;chr&gt;               &lt;int&gt; &lt;dbl&gt; &lt;dbl&gt;\n 1 Luke Skywalker        172    77  26.0\n 2 C-3PO                 167    75  26.9\n 3 R2-D2                  96    32  34.7\n 4 Darth Vader           202   136  33.3\n 5 Leia Organa           150    49  21.8\n 6 Owen Lars             178   120  37.9\n 7 Beru Whitesun Lars    165    75  27.5\n 8 R5-D4                  97    32  34.0\n 9 Biggs Darklighter     183    84  25.1\n10 Obi-Wan Kenobi        182    77  23.2\n# ℹ 77 more rows"
   },
   {
     "objectID": "attendees/IanWeidling/code/template.html#introduction-to-ggplot2",
@@ -707,44 +322,464 @@
     "text": "Introduction to ggplot2\n\nlibrary(ggplot2)\n\nggplot(mpg, aes(displ, hwy, colour = class)) +\n  geom_point()"
   },
   {
-    "objectID": "attendees/StefaniBacaAtlas/code/template.html",
-    "href": "attendees/StefaniBacaAtlas/code/template.html",
+    "objectID": "attendees/ElhamGhanbarian/code/template.html",
+    "href": "attendees/ElhamGhanbarian/code/template.html",
     "title": "Practical Exercise Template",
     "section": "",
     "text": "Assignment. Add assignment details here. Update this section with the current week’s tasks or instructions, and any additional resources to complete the assignment."
   },
   {
-    "objectID": "attendees/StefaniBacaAtlas/code/template.html#introduction-to-dplyr",
-    "href": "attendees/StefaniBacaAtlas/code/template.html#introduction-to-dplyr",
+    "objectID": "attendees/ElhamGhanbarian/code/template.html#introduction-to-dplyr",
+    "href": "attendees/ElhamGhanbarian/code/template.html#introduction-to-dplyr",
     "title": "Practical Exercise Template",
     "section": "Introduction to dplyr",
-    "text": "Introduction to dplyr\n\nlibrary(dplyr)\n\nstarwars |&gt;\n  mutate(name, bmi = mass / ((height / 100)^2)) |&gt;\n  select(name:mass, bmi)\n\n# A tibble: 87 × 4\n   name               height  mass   bmi\n   &lt;chr&gt;               &lt;int&gt; &lt;dbl&gt; &lt;dbl&gt;\n 1 Luke Skywalker        172    77  26.0\n 2 C-3PO                 167    75  26.9\n 3 R2-D2                  96    32  34.7\n 4 Darth Vader           202   136  33.3\n 5 Leia Organa           150    49  21.8\n 6 Owen Lars             178   120  37.9\n 7 Beru Whitesun Lars    165    75  27.5\n 8 R5-D4                  97    32  34.0\n 9 Biggs Darklighter     183    84  25.1\n10 Obi-Wan Kenobi        182    77  23.2\n# ℹ 77 more rows"
+    "text": "Introduction to dplyr\n\nlibrary(dplyr)\n\nstarwars |&gt;\n  mutate(bmi = mass / ((height / 100)^2)) |&gt;\n  select(name:mass, bmi)\n\n# A tibble: 87 × 4\n   name               height  mass   bmi\n   &lt;chr&gt;               &lt;int&gt; &lt;dbl&gt; &lt;dbl&gt;\n 1 Luke Skywalker        172    77  26.0\n 2 C-3PO                 167    75  26.9\n 3 R2-D2                  96    32  34.7\n 4 Darth Vader           202   136  33.3\n 5 Leia Organa           150    49  21.8\n 6 Owen Lars             178   120  37.9\n 7 Beru Whitesun Lars    165    75  27.5\n 8 R5-D4                  97    32  34.0\n 9 Biggs Darklighter     183    84  25.1\n10 Obi-Wan Kenobi        182    77  23.2\n# ℹ 77 more rows"
   },
   {
-    "objectID": "attendees/StefaniBacaAtlas/code/template.html#introduction-to-ggplot2",
-    "href": "attendees/StefaniBacaAtlas/code/template.html#introduction-to-ggplot2",
+    "objectID": "attendees/ElhamGhanbarian/code/template.html#introduction-to-ggplot2",
+    "href": "attendees/ElhamGhanbarian/code/template.html#introduction-to-ggplot2",
     "title": "Practical Exercise Template",
     "section": "Introduction to ggplot2",
     "text": "Introduction to ggplot2\n\nlibrary(ggplot2)\n\nggplot(mpg, aes(displ, hwy, colour = class)) +\n  geom_point()"
   },
   {
+    "objectID": "attendees/SullafaKadura/code/template.html",
+    "href": "attendees/SullafaKadura/code/template.html",
+    "title": "Practical Exercise Template",
+    "section": "",
+    "text": "Assignment. Add assignment details here. Update this section with the current week’s tasks or instructions, and any additional resources to complete the assignment."
+  },
+  {
+    "objectID": "attendees/SullafaKadura/code/template.html#introduction-to-dplyr",
+    "href": "attendees/SullafaKadura/code/template.html#introduction-to-dplyr",
+    "title": "Practical Exercise Template",
+    "section": "Introduction to dplyr",
+    "text": "Introduction to dplyr\n\nlibrary(dplyr)\n\nstarwars |&gt;\n  mutate(bmi = mass / ((height / 100)^2)) |&gt;\n  select(name:mass, bmi)\n\n# A tibble: 87 × 4\n   name               height  mass   bmi\n   &lt;chr&gt;               &lt;int&gt; &lt;dbl&gt; &lt;dbl&gt;\n 1 Luke Skywalker        172    77  26.0\n 2 C-3PO                 167    75  26.9\n 3 R2-D2                  96    32  34.7\n 4 Darth Vader           202   136  33.3\n 5 Leia Organa           150    49  21.8\n 6 Owen Lars             178   120  37.9\n 7 Beru Whitesun Lars    165    75  27.5\n 8 R5-D4                  97    32  34.0\n 9 Biggs Darklighter     183    84  25.1\n10 Obi-Wan Kenobi        182    77  23.2\n# ℹ 77 more rows"
+  },
+  {
+    "objectID": "attendees/SullafaKadura/code/template.html#introduction-to-ggplot2",
+    "href": "attendees/SullafaKadura/code/template.html#introduction-to-ggplot2",
+    "title": "Practical Exercise Template",
+    "section": "Introduction to ggplot2",
+    "text": "Introduction to ggplot2\n\nlibrary(ggplot2)\n\nggplot(mpg, aes(displ, hwy, colour = class)) +\n  geom_point()"
+  },
+  {
+    "objectID": "attendees/KeithSmith/code/template.html",
+    "href": "attendees/KeithSmith/code/template.html",
+    "title": "Practical Exercise Template",
+    "section": "",
+    "text": "Assignment. Add assignment details here. Update this section with the current week’s tasks or instructions, and any additional resources to complete the assignment."
+  },
+  {
+    "objectID": "attendees/KeithSmith/code/template.html#introduction-to-dplyr",
+    "href": "attendees/KeithSmith/code/template.html#introduction-to-dplyr",
+    "title": "Practical Exercise Template",
+    "section": "Introduction to dplyr",
+    "text": "Introduction to dplyr\n\nlibrary(dplyr)\n\nstarwars |&gt;\n  mutate(bmi = mass / ((height / 100)^2)) |&gt;\n  select(name:mass, bmi)\n\n# A tibble: 87 × 4\n   name               height  mass   bmi\n   &lt;chr&gt;               &lt;int&gt; &lt;dbl&gt; &lt;dbl&gt;\n 1 Luke Skywalker        172    77  26.0\n 2 C-3PO                 167    75  26.9\n 3 R2-D2                  96    32  34.7\n 4 Darth Vader           202   136  33.3\n 5 Leia Organa           150    49  21.8\n 6 Owen Lars             178   120  37.9\n 7 Beru Whitesun Lars    165    75  27.5\n 8 R5-D4                  97    32  34.0\n 9 Biggs Darklighter     183    84  25.1\n10 Obi-Wan Kenobi        182    77  23.2\n# ℹ 77 more rows"
+  },
+  {
+    "objectID": "attendees/KeithSmith/code/template.html#introduction-to-ggplot2",
+    "href": "attendees/KeithSmith/code/template.html#introduction-to-ggplot2",
+    "title": "Practical Exercise Template",
+    "section": "Introduction to ggplot2",
+    "text": "Introduction to ggplot2\n\nlibrary(ggplot2)\n\nggplot(mpg, aes(displ, hwy, colour = class)) +\n  geom_point()"
+  },
+  {
+    "objectID": "attendees/KellieCollins/code/template.html",
+    "href": "attendees/KellieCollins/code/template.html",
+    "title": "Practical Exercise Template",
+    "section": "",
+    "text": "Assignment. Add assignment details here. Update this section with the current week’s tasks or instructions, and any additional resources to complete the assignment."
+  },
+  {
+    "objectID": "attendees/KellieCollins/code/template.html#introduction-to-dplyr",
+    "href": "attendees/KellieCollins/code/template.html#introduction-to-dplyr",
+    "title": "Practical Exercise Template",
+    "section": "Introduction to dplyr",
+    "text": "Introduction to dplyr\n\nlibrary(dplyr)\n\nstarwars |&gt;\n  mutate(bmi = mass / ((height / 100)^2)) |&gt;\n  select(name:mass, bmi)\n\n# A tibble: 87 × 4\n   name               height  mass   bmi\n   &lt;chr&gt;               &lt;int&gt; &lt;dbl&gt; &lt;dbl&gt;\n 1 Luke Skywalker        172    77  26.0\n 2 C-3PO                 167    75  26.9\n 3 R2-D2                  96    32  34.7\n 4 Darth Vader           202   136  33.3\n 5 Leia Organa           150    49  21.8\n 6 Owen Lars             178   120  37.9\n 7 Beru Whitesun Lars    165    75  27.5\n 8 R5-D4                  97    32  34.0\n 9 Biggs Darklighter     183    84  25.1\n10 Obi-Wan Kenobi        182    77  23.2\n# ℹ 77 more rows"
+  },
+  {
+    "objectID": "attendees/KellieCollins/code/template.html#introduction-to-ggplot2",
+    "href": "attendees/KellieCollins/code/template.html#introduction-to-ggplot2",
+    "title": "Practical Exercise Template",
+    "section": "Introduction to ggplot2",
+    "text": "Introduction to ggplot2\n\nlibrary(ggplot2)\n\nggplot(mpg, aes(displ, hwy, colour = class)) +\n  geom_point()"
+  },
+  {
+    "objectID": "attendees/JulianneClina/code/template.html",
+    "href": "attendees/JulianneClina/code/template.html",
+    "title": "Practical Exercise Template",
+    "section": "",
+    "text": "Assignment. Add assignment details here. Update this section with the current week’s tasks or instructions, and any additional resources to complete the assignment."
+  },
+  {
+    "objectID": "attendees/JulianneClina/code/template.html#introduction-to-dplyr",
+    "href": "attendees/JulianneClina/code/template.html#introduction-to-dplyr",
+    "title": "Practical Exercise Template",
+    "section": "Introduction to dplyr",
+    "text": "Introduction to dplyr\n\nlibrary(dplyr)\n\nstarwars |&gt;\n  mutate(bmi = mass / ((height / 100)^2)) |&gt;\n  select(name:mass, bmi)\n\n# A tibble: 87 × 4\n   name               height  mass   bmi\n   &lt;chr&gt;               &lt;int&gt; &lt;dbl&gt; &lt;dbl&gt;\n 1 Luke Skywalker        172    77  26.0\n 2 C-3PO                 167    75  26.9\n 3 R2-D2                  96    32  34.7\n 4 Darth Vader           202   136  33.3\n 5 Leia Organa           150    49  21.8\n 6 Owen Lars             178   120  37.9\n 7 Beru Whitesun Lars    165    75  27.5\n 8 R5-D4                  97    32  34.0\n 9 Biggs Darklighter     183    84  25.1\n10 Obi-Wan Kenobi        182    77  23.2\n# ℹ 77 more rows"
+  },
+  {
+    "objectID": "attendees/JulianneClina/code/template.html#introduction-to-ggplot2",
+    "href": "attendees/JulianneClina/code/template.html#introduction-to-ggplot2",
+    "title": "Practical Exercise Template",
+    "section": "Introduction to ggplot2",
+    "text": "Introduction to ggplot2\n\nlibrary(ggplot2)\n\nggplot(mpg, aes(displ, hwy, colour = class)) +\n  geom_point()"
+  },
+  {
+    "objectID": "attendees/MasonMcClarnon/code/whole-game.html",
+    "href": "attendees/MasonMcClarnon/code/whole-game.html",
+    "title": "The Whole Game Practice",
+    "section": "",
+    "text": "message(\"The Message is pretty neat\")\n\nx &lt;- 1:10\nmean(x)\n\n[1] 5.5"
+  },
+  {
+    "objectID": "attendees/KameronSuire/about.html",
+    "href": "attendees/KameronSuire/about.html",
+    "title": "Kameron Suire",
+    "section": "",
+    "text": "Practical Exercise Template\n\n\nAdjust the YAML each week when doing a new exercise\n\n\n\n\n\n\n\n\nJun 24, 2026\n\n\nKameron Suire\n\n\n\n\n\n\n\n\n\n\n\n\nThe Whole Game Practice\n\n\nMy First GitHub Push\n\n\n\n\n\n\n\n\nJun 24, 2026\n\n\nKameron Suire, PhD\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "attendees/KameronSuire/code/template.html",
+    "href": "attendees/KameronSuire/code/template.html",
+    "title": "Practical Exercise Template",
+    "section": "",
+    "text": "Assignment. Add assignment details here. Update this section with the current week’s tasks or instructions, and any additional resources to complete the assignment."
+  },
+  {
+    "objectID": "attendees/KameronSuire/code/template.html#introduction-to-dplyr",
+    "href": "attendees/KameronSuire/code/template.html#introduction-to-dplyr",
+    "title": "Practical Exercise Template",
+    "section": "Introduction to dplyr",
+    "text": "Introduction to dplyr\n\nlibrary(dplyr)\n\nstarwars |&gt;\n  mutate(bmi = mass / ((height / 100)^2)) |&gt;\n  select(name:mass, bmi)\n\n# A tibble: 87 × 4\n   name               height  mass   bmi\n   &lt;chr&gt;               &lt;int&gt; &lt;dbl&gt; &lt;dbl&gt;\n 1 Luke Skywalker        172    77  26.0\n 2 C-3PO                 167    75  26.9\n 3 R2-D2                  96    32  34.7\n 4 Darth Vader           202   136  33.3\n 5 Leia Organa           150    49  21.8\n 6 Owen Lars             178   120  37.9\n 7 Beru Whitesun Lars    165    75  27.5\n 8 R5-D4                  97    32  34.0\n 9 Biggs Darklighter     183    84  25.1\n10 Obi-Wan Kenobi        182    77  23.2\n# ℹ 77 more rows"
+  },
+  {
+    "objectID": "attendees/KameronSuire/code/template.html#introduction-to-ggplot2",
+    "href": "attendees/KameronSuire/code/template.html#introduction-to-ggplot2",
+    "title": "Practical Exercise Template",
+    "section": "Introduction to ggplot2",
+    "text": "Introduction to ggplot2\n\nlibrary(ggplot2)\n\nggplot(mpg, aes(displ, hwy, colour = class)) +\n  geom_point()"
+  },
+  {
+    "objectID": "attendees/RashelleHoffman/code/template.html",
+    "href": "attendees/RashelleHoffman/code/template.html",
+    "title": "Practical Exercise Template",
+    "section": "",
+    "text": "Assignment. Add assignment details here. Update this section with the current week’s tasks or instructions, and any additional resources to complete the assignment."
+  },
+  {
+    "objectID": "attendees/RashelleHoffman/code/template.html#introduction-to-dplyr",
+    "href": "attendees/RashelleHoffman/code/template.html#introduction-to-dplyr",
+    "title": "Practical Exercise Template",
+    "section": "Introduction to dplyr",
+    "text": "Introduction to dplyr\n\nlibrary(dplyr)\n\nstarwars |&gt;\n  mutate(bmi = mass / ((height / 100)^2)) |&gt;\n  select(name:mass, bmi)\n\n# A tibble: 87 × 4\n   name               height  mass   bmi\n   &lt;chr&gt;               &lt;int&gt; &lt;dbl&gt; &lt;dbl&gt;\n 1 Luke Skywalker        172    77  26.0\n 2 C-3PO                 167    75  26.9\n 3 R2-D2                  96    32  34.7\n 4 Darth Vader           202   136  33.3\n 5 Leia Organa           150    49  21.8\n 6 Owen Lars             178   120  37.9\n 7 Beru Whitesun Lars    165    75  27.5\n 8 R5-D4                  97    32  34.0\n 9 Biggs Darklighter     183    84  25.1\n10 Obi-Wan Kenobi        182    77  23.2\n# ℹ 77 more rows"
+  },
+  {
+    "objectID": "attendees/RashelleHoffman/code/template.html#introduction-to-ggplot2",
+    "href": "attendees/RashelleHoffman/code/template.html#introduction-to-ggplot2",
+    "title": "Practical Exercise Template",
+    "section": "Introduction to ggplot2",
+    "text": "Introduction to ggplot2\n\nlibrary(ggplot2)\n\nggplot(mpg, aes(displ, hwy, colour = class)) +\n  geom_point()"
+  },
+  {
+    "objectID": "attendees/SadafSalehi/code/template.html",
+    "href": "attendees/SadafSalehi/code/template.html",
+    "title": "Practical Exercise Template",
+    "section": "",
+    "text": "Assignment. Add assignment details here. Update this section with the current week’s tasks or instructions, and any additional resources to complete the assignment."
+  },
+  {
+    "objectID": "attendees/SadafSalehi/code/template.html#introduction-to-dplyr",
+    "href": "attendees/SadafSalehi/code/template.html#introduction-to-dplyr",
+    "title": "Practical Exercise Template",
+    "section": "Introduction to dplyr",
+    "text": "Introduction to dplyr\n\nlibrary(dplyr)\n\nstarwars |&gt;\n  mutate(bmi = mass / ((height / 100)^2)) |&gt;\n  select(name:mass, bmi)\n\n# A tibble: 87 × 4\n   name               height  mass   bmi\n   &lt;chr&gt;               &lt;int&gt; &lt;dbl&gt; &lt;dbl&gt;\n 1 Luke Skywalker        172    77  26.0\n 2 C-3PO                 167    75  26.9\n 3 R2-D2                  96    32  34.7\n 4 Darth Vader           202   136  33.3\n 5 Leia Organa           150    49  21.8\n 6 Owen Lars             178   120  37.9\n 7 Beru Whitesun Lars    165    75  27.5\n 8 R5-D4                  97    32  34.0\n 9 Biggs Darklighter     183    84  25.1\n10 Obi-Wan Kenobi        182    77  23.2\n# ℹ 77 more rows"
+  },
+  {
+    "objectID": "attendees/SadafSalehi/code/template.html#introduction-to-ggplot2",
+    "href": "attendees/SadafSalehi/code/template.html#introduction-to-ggplot2",
+    "title": "Practical Exercise Template",
+    "section": "Introduction to ggplot2",
+    "text": "Introduction to ggplot2\n\nlibrary(ggplot2)\n\nggplot(mpg, aes(displ, hwy, colour = class)) +\n  geom_point()"
+  },
+  {
+    "objectID": "attendees/SaraFortinMiller/code/template.html",
+    "href": "attendees/SaraFortinMiller/code/template.html",
+    "title": "Practical Exercise Template",
+    "section": "",
+    "text": "Assignment. Add assignment details here. Update this section with the current week’s tasks or instructions, and any additional resources to complete the assignment."
+  },
+  {
+    "objectID": "attendees/SaraFortinMiller/code/template.html#introduction-to-dplyr",
+    "href": "attendees/SaraFortinMiller/code/template.html#introduction-to-dplyr",
+    "title": "Practical Exercise Template",
+    "section": "Introduction to dplyr",
+    "text": "Introduction to dplyr\n\nlibrary(dplyr)\n\nstarwars |&gt;\n  mutate(bmi = mass / ((height / 100)^2)) |&gt;\n  select(name:mass, bmi)\n\n# A tibble: 87 × 4\n   name               height  mass   bmi\n   &lt;chr&gt;               &lt;int&gt; &lt;dbl&gt; &lt;dbl&gt;\n 1 Luke Skywalker        172    77  26.0\n 2 C-3PO                 167    75  26.9\n 3 R2-D2                  96    32  34.7\n 4 Darth Vader           202   136  33.3\n 5 Leia Organa           150    49  21.8\n 6 Owen Lars             178   120  37.9\n 7 Beru Whitesun Lars    165    75  27.5\n 8 R5-D4                  97    32  34.0\n 9 Biggs Darklighter     183    84  25.1\n10 Obi-Wan Kenobi        182    77  23.2\n# ℹ 77 more rows"
+  },
+  {
+    "objectID": "attendees/SaraFortinMiller/code/template.html#introduction-to-ggplot2",
+    "href": "attendees/SaraFortinMiller/code/template.html#introduction-to-ggplot2",
+    "title": "Practical Exercise Template",
+    "section": "Introduction to ggplot2",
+    "text": "Introduction to ggplot2\n\nlibrary(ggplot2)\n\nggplot(mpg, aes(displ, hwy, colour = class)) +\n  geom_point()"
+  },
+  {
+    "objectID": "attendees/DominicJavonillo/code/template.html",
+    "href": "attendees/DominicJavonillo/code/template.html",
+    "title": "Practical Exercise Template",
+    "section": "",
+    "text": "Assignment. Add assignment details here. Update this section with the current week’s tasks or instructions, and any additional resources to complete the assignment."
+  },
+  {
+    "objectID": "attendees/DominicJavonillo/code/template.html#introduction-to-dplyr",
+    "href": "attendees/DominicJavonillo/code/template.html#introduction-to-dplyr",
+    "title": "Practical Exercise Template",
+    "section": "Introduction to dplyr",
+    "text": "Introduction to dplyr\n\nlibrary(dplyr)\n\nstarwars |&gt;\n  mutate(bmi = mass / ((height / 100)^2)) |&gt;\n  select(name:mass, bmi)\n\n# A tibble: 87 × 4\n   name               height  mass   bmi\n   &lt;chr&gt;               &lt;int&gt; &lt;dbl&gt; &lt;dbl&gt;\n 1 Luke Skywalker        172    77  26.0\n 2 C-3PO                 167    75  26.9\n 3 R2-D2                  96    32  34.7\n 4 Darth Vader           202   136  33.3\n 5 Leia Organa           150    49  21.8\n 6 Owen Lars             178   120  37.9\n 7 Beru Whitesun Lars    165    75  27.5\n 8 R5-D4                  97    32  34.0\n 9 Biggs Darklighter     183    84  25.1\n10 Obi-Wan Kenobi        182    77  23.2\n# ℹ 77 more rows"
+  },
+  {
+    "objectID": "attendees/DominicJavonillo/code/template.html#introduction-to-ggplot2",
+    "href": "attendees/DominicJavonillo/code/template.html#introduction-to-ggplot2",
+    "title": "Practical Exercise Template",
+    "section": "Introduction to ggplot2",
+    "text": "Introduction to ggplot2\n\nlibrary(ggplot2)\n\nggplot(mpg, aes(displ, hwy, colour = class)) +\n  geom_point()"
+  },
+  {
+    "objectID": "attendees/RachelHantman/code/template.html",
+    "href": "attendees/RachelHantman/code/template.html",
+    "title": "Practical Exercise Template",
+    "section": "",
+    "text": "Assignment. Add assignment details here. Update this section with the current week’s tasks or instructions, and any additional resources to complete the assignment."
+  },
+  {
+    "objectID": "attendees/RachelHantman/code/template.html#introduction-to-dplyr",
+    "href": "attendees/RachelHantman/code/template.html#introduction-to-dplyr",
+    "title": "Practical Exercise Template",
+    "section": "Introduction to dplyr",
+    "text": "Introduction to dplyr\n\nlibrary(dplyr)\n\nstarwars |&gt;\n  mutate(bmi = mass / ((height / 100)^2)) |&gt;\n  select(name:mass, bmi)\n\n# A tibble: 87 × 4\n   name               height  mass   bmi\n   &lt;chr&gt;               &lt;int&gt; &lt;dbl&gt; &lt;dbl&gt;\n 1 Luke Skywalker        172    77  26.0\n 2 C-3PO                 167    75  26.9\n 3 R2-D2                  96    32  34.7\n 4 Darth Vader           202   136  33.3\n 5 Leia Organa           150    49  21.8\n 6 Owen Lars             178   120  37.9\n 7 Beru Whitesun Lars    165    75  27.5\n 8 R5-D4                  97    32  34.0\n 9 Biggs Darklighter     183    84  25.1\n10 Obi-Wan Kenobi        182    77  23.2\n# ℹ 77 more rows"
+  },
+  {
+    "objectID": "attendees/RachelHantman/code/template.html#introduction-to-ggplot2",
+    "href": "attendees/RachelHantman/code/template.html#introduction-to-ggplot2",
+    "title": "Practical Exercise Template",
+    "section": "Introduction to ggplot2",
+    "text": "Introduction to ggplot2\n\nlibrary(ggplot2)\n\nggplot(mpg, aes(displ, hwy, colour = class)) +\n  geom_point()"
+  },
+  {
+    "objectID": "attendees/AinsleyVanderGiesen/code/template.html",
+    "href": "attendees/AinsleyVanderGiesen/code/template.html",
+    "title": "Practical Exercise Template",
+    "section": "",
+    "text": "Assignment. Add assignment details here. Update this section with the current week’s tasks or instructions, and any additional resources to complete the assignment."
+  },
+  {
+    "objectID": "attendees/AinsleyVanderGiesen/code/template.html#introduction-to-dplyr",
+    "href": "attendees/AinsleyVanderGiesen/code/template.html#introduction-to-dplyr",
+    "title": "Practical Exercise Template",
+    "section": "Introduction to dplyr",
+    "text": "Introduction to dplyr\n\nlibrary(dplyr)\n\nstarwars |&gt;\n  mutate(bmi = mass / ((height / 100)^2)) |&gt;\n  select(name:mass, bmi)\n\n# A tibble: 87 × 4\n   name               height  mass   bmi\n   &lt;chr&gt;               &lt;int&gt; &lt;dbl&gt; &lt;dbl&gt;\n 1 Luke Skywalker        172    77  26.0\n 2 C-3PO                 167    75  26.9\n 3 R2-D2                  96    32  34.7\n 4 Darth Vader           202   136  33.3\n 5 Leia Organa           150    49  21.8\n 6 Owen Lars             178   120  37.9\n 7 Beru Whitesun Lars    165    75  27.5\n 8 R5-D4                  97    32  34.0\n 9 Biggs Darklighter     183    84  25.1\n10 Obi-Wan Kenobi        182    77  23.2\n# ℹ 77 more rows"
+  },
+  {
+    "objectID": "attendees/AinsleyVanderGiesen/code/template.html#introduction-to-ggplot2",
+    "href": "attendees/AinsleyVanderGiesen/code/template.html#introduction-to-ggplot2",
+    "title": "Practical Exercise Template",
+    "section": "Introduction to ggplot2",
+    "text": "Introduction to ggplot2\n\nlibrary(ggplot2)\n\nggplot(mpg, aes(displ, hwy, colour = class)) +\n  geom_point()"
+  },
+  {
+    "objectID": "attendees/ElyseVetter/code/template.html",
+    "href": "attendees/ElyseVetter/code/template.html",
+    "title": "Practical Exercise Template",
+    "section": "",
+    "text": "Assignment. Add assignment details here. Update this section with the current week’s tasks or instructions, and any additional resources to complete the assignment."
+  },
+  {
+    "objectID": "attendees/ElyseVetter/code/template.html#introduction-to-dplyr",
+    "href": "attendees/ElyseVetter/code/template.html#introduction-to-dplyr",
+    "title": "Practical Exercise Template",
+    "section": "Introduction to dplyr",
+    "text": "Introduction to dplyr\n\nlibrary(dplyr)\n\nstarwars |&gt;\n  mutate(bmi = mass / ((height / 100)^2)) |&gt;\n  select(name:mass, bmi)\n\n# A tibble: 87 × 4\n   name               height  mass   bmi\n   &lt;chr&gt;               &lt;int&gt; &lt;dbl&gt; &lt;dbl&gt;\n 1 Luke Skywalker        172    77  26.0\n 2 C-3PO                 167    75  26.9\n 3 R2-D2                  96    32  34.7\n 4 Darth Vader           202   136  33.3\n 5 Leia Organa           150    49  21.8\n 6 Owen Lars             178   120  37.9\n 7 Beru Whitesun Lars    165    75  27.5\n 8 R5-D4                  97    32  34.0\n 9 Biggs Darklighter     183    84  25.1\n10 Obi-Wan Kenobi        182    77  23.2\n# ℹ 77 more rows"
+  },
+  {
+    "objectID": "attendees/ElyseVetter/code/template.html#introduction-to-ggplot2",
+    "href": "attendees/ElyseVetter/code/template.html#introduction-to-ggplot2",
+    "title": "Practical Exercise Template",
+    "section": "Introduction to ggplot2",
+    "text": "Introduction to ggplot2\n\nlibrary(ggplot2)\n\nggplot(mpg, aes(displ, hwy, colour = class)) +\n  geom_point()"
+  },
+  {
+    "objectID": "attendees/ElyseVetter/code/Week 1 Exercise.html",
+    "href": "attendees/ElyseVetter/code/Week 1 Exercise.html",
+    "title": "The Whole Game Practice",
+    "section": "",
+    "text": "Assignment. Practice for Dr. Julianne Clina’s introduction to R presentation. This Quarto document will be used to practice my first GitHub pull request.\n# Hello R-LAB\nmessage(\"My first GitHub push worked!\")\nx &lt;- 1:10\nmean(x)\n\n[1] 5.5"
+  },
+  {
+    "objectID": "attendees/ElyseVetter/code/Week 1 Exercise.html#introduction-to-dplyr",
+    "href": "attendees/ElyseVetter/code/Week 1 Exercise.html#introduction-to-dplyr",
+    "title": "The Whole Game Practice",
+    "section": "Introduction to dplyr",
+    "text": "Introduction to dplyr\n\nlibrary(dplyr)\n\nstarwars |&gt;\n  mutate(bmi = mass / ((height / 100)^2)) |&gt;\n  select(name:mass, bmi)\n\n# A tibble: 87 × 4\n   name               height  mass   bmi\n   &lt;chr&gt;               &lt;int&gt; &lt;dbl&gt; &lt;dbl&gt;\n 1 Luke Skywalker        172    77  26.0\n 2 C-3PO                 167    75  26.9\n 3 R2-D2                  96    32  34.7\n 4 Darth Vader           202   136  33.3\n 5 Leia Organa           150    49  21.8\n 6 Owen Lars             178   120  37.9\n 7 Beru Whitesun Lars    165    75  27.5\n 8 R5-D4                  97    32  34.0\n 9 Biggs Darklighter     183    84  25.1\n10 Obi-Wan Kenobi        182    77  23.2\n# ℹ 77 more rows"
+  },
+  {
+    "objectID": "attendees/ElyseVetter/code/Week 1 Exercise.html#introduction-to-ggplot2",
+    "href": "attendees/ElyseVetter/code/Week 1 Exercise.html#introduction-to-ggplot2",
+    "title": "The Whole Game Practice",
+    "section": "Introduction to ggplot2",
+    "text": "Introduction to ggplot2\n\nlibrary(ggplot2)\n\nggplot(mpg, aes(displ, hwy, colour = class)) +\n  geom_point()"
+  },
+  {
+    "objectID": "attendees/ElyseVetter/about.html",
+    "href": "attendees/ElyseVetter/about.html",
+    "title": "Elyse Vetter",
+    "section": "",
+    "text": "The Whole Game Practice\n\n\nMy First Github Push\n\n\n\n\n\n\n\n\nJun 24, 2026\n\n\nElyse Vetter\n\n\n\n\n\n\n\n\n\n\n\n\nPractical Exercise Template\n\n\nAdjust the YAML each week when doing a new exercise\n\n\n\n\n\n\n\n\nJun 24, 2026\n\n\nElyse Vetter\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "attendees/AinsleyVanderGiesen/about.html",
+    "href": "attendees/AinsleyVanderGiesen/about.html",
+    "title": "Ainsley VanderGiesen",
+    "section": "",
+    "text": "Practical Exercise Template\n\n\nAdjust the YAML each week when doing a new exercise\n\n\n\n\n\n\n\n\nJun 24, 2026\n\n\nAinsley VanderGiesen\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "attendees/RachelHantman/about.html",
+    "href": "attendees/RachelHantman/about.html",
+    "title": "Rachel Hantman",
+    "section": "",
+    "text": "Practical Exercise Template\n\n\nAdjust the YAML each week when doing a new exercise\n\n\n\n\n\n\n\n\nJun 24, 2026\n\n\nRachel Hantman\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "attendees/DominicJavonillo/about.html",
+    "href": "attendees/DominicJavonillo/about.html",
+    "title": "Dominic Javonillo",
+    "section": "",
+    "text": "Practical Exercise Template\n\n\nAdjust the YAML each week when doing a new exercise\n\n\n\n\n\n\n\n\nJun 24, 2026\n\n\nDominic Javonillo\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "attendees/SaraFortinMiller/about.html",
+    "href": "attendees/SaraFortinMiller/about.html",
+    "title": "Sara Fortin-Miller",
+    "section": "",
+    "text": "Practical Exercise Template\n\n\nAdjust the YAML each week when doing a new exercise\n\n\n\n\n\n\n\n\nJun 24, 2026\n\n\nSara Fortin-Miller\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "attendees/SadafSalehi/about.html",
+    "href": "attendees/SadafSalehi/about.html",
+    "title": "Sadaf Salehi",
+    "section": "",
+    "text": "Practical Exercise Template\n\n\nAdjust the YAML each week when doing a new exercise\n\n\n\n\n\n\n\n\nJun 24, 2026\n\n\nSadaf Salehi\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "attendees/RashelleHoffman/about.html",
+    "href": "attendees/RashelleHoffman/about.html",
+    "title": "Rashelle Hoffman",
+    "section": "",
+    "text": "Practical Exercise Template\n\n\nAdjust the YAML each week when doing a new exercise\n\n\n\n\n\n\n\n\nJun 24, 2026\n\n\nRashelle Hoffman\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "attendees/KameronSuire/code/whole-game.html",
+    "href": "attendees/KameronSuire/code/whole-game.html",
+    "title": "The Whole Game Practice",
+    "section": "",
+    "text": "Assignment. Practice for Dr. Julianne Clina’s introduction to R presentation. This Quarto document will be used to practice my first GitHub pull request.\n\n# Hello R-LAB\nmessage(\"My first GitHub push worked!\")\nx &lt;- 1:10\nmean(x)\n\n[1] 5.5"
+  },
+  {
+    "objectID": "attendees/MasonMcClarnon/code/template.html",
+    "href": "attendees/MasonMcClarnon/code/template.html",
+    "title": "Practical Exercise Template",
+    "section": "",
+    "text": "Assignment. Add assignment details here. Update this section with the current week’s tasks or instructions, and any additional resources to complete the assignment."
+  },
+  {
+    "objectID": "attendees/MasonMcClarnon/code/template.html#introduction-to-dplyr",
+    "href": "attendees/MasonMcClarnon/code/template.html#introduction-to-dplyr",
+    "title": "Practical Exercise Template",
+    "section": "Introduction to dplyr",
+    "text": "Introduction to dplyr\n\nlibrary(dplyr)\n\nstarwars |&gt;\n  mutate(bmi = mass / ((height / 100)^2)) |&gt;\n  select(name:mass, bmi)\n\n# A tibble: 87 × 4\n   name               height  mass   bmi\n   &lt;chr&gt;               &lt;int&gt; &lt;dbl&gt; &lt;dbl&gt;\n 1 Luke Skywalker        172    77  26.0\n 2 C-3PO                 167    75  26.9\n 3 R2-D2                  96    32  34.7\n 4 Darth Vader           202   136  33.3\n 5 Leia Organa           150    49  21.8\n 6 Owen Lars             178   120  37.9\n 7 Beru Whitesun Lars    165    75  27.5\n 8 R5-D4                  97    32  34.0\n 9 Biggs Darklighter     183    84  25.1\n10 Obi-Wan Kenobi        182    77  23.2\n# ℹ 77 more rows"
+  },
+  {
+    "objectID": "attendees/MasonMcClarnon/code/template.html#introduction-to-ggplot2",
+    "href": "attendees/MasonMcClarnon/code/template.html#introduction-to-ggplot2",
+    "title": "Practical Exercise Template",
+    "section": "Introduction to ggplot2",
+    "text": "Introduction to ggplot2\n\nlibrary(ggplot2)\n\nggplot(mpg, aes(displ, hwy, colour = class)) +\n  geom_point()"
+  },
+  {
+    "objectID": "attendees/MasonMcClarnon/about.html",
+    "href": "attendees/MasonMcClarnon/about.html",
+    "title": "Mason McClarnon",
+    "section": "",
+    "text": "Practical Exercise Template\n\n\nAdjust the YAML each week when doing a new exercise\n\n\n\n\n\n\n\n\nJun 24, 2026\n\n\nMason McClarnon\n\n\n\n\n\n\n\n\n\n\n\n\nThe Whole Game Practice\n\n\nAdjust the YAML each week when doing a new exercise\n\n\n\n\n\n\n\n\nJun 24, 2026\n\n\nMason McClarnon\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "attendees/JulianneClina/about.html",
+    "href": "attendees/JulianneClina/about.html",
+    "title": "Julianne Clina",
+    "section": "",
+    "text": "Julianne Clina\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPractical Exercise Template\n\n\nAdjust the YAML each week when doing a new exercise\n\n\n\n\n\n\n\n\nJun 24, 2026\n\n\nJulianne Clina, PhD\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "attendees/KellieCollins/about.html",
+    "href": "attendees/KellieCollins/about.html",
+    "title": "Kellie Collins",
+    "section": "",
+    "text": "Practical Exercise Template\n\n\nAdjust the YAML each week when doing a new exercise\n\n\n\n\n\n\n\n\nJun 24, 2026\n\n\nKellie Collins\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "attendees/KeithSmith/about.html",
+    "href": "attendees/KeithSmith/about.html",
+    "title": "Keith Smith",
+    "section": "",
+    "text": "Practical Exercise Template\n\n\nAdjust the YAML each week when doing a new exercise\n\n\n\n\n\n\n\n\nJun 24, 2026\n\n\nKeith Smith\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "attendees/SullafaKadura/about.html",
+    "href": "attendees/SullafaKadura/about.html",
+    "title": "Sullafa Kadura",
+    "section": "",
+    "text": "Practical Exercise Template\n\n\nAdjust the YAML each week when doing a new exercise\n\n\n\n\n\n\n\n\nJun 24, 2026\n\n\nSullafa Kadura\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "attendees/ElhamGhanbarian/about.html",
+    "href": "attendees/ElhamGhanbarian/about.html",
+    "title": "Elham Ghanbarian",
+    "section": "",
+    "text": "Practical Exercise Template\n\n\nAdjust the YAML each week when doing a new exercise\n\n\n\n\n\n\n\n\nJun 24, 2026\n\n\nElham Ghanbarian\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "attendees/IanWeidling/about.html",
+    "href": "attendees/IanWeidling/about.html",
+    "title": "Ian Weidling",
+    "section": "",
+    "text": "Practical Exercise Template\n\n\nAdjust the YAML each week when doing a new exercise\n\n\n\n\n\n\n\n\nJun 24, 2026\n\n\nIan Weidling\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "attendees/StefaniBacaAtlas/about.html",
+    "href": "attendees/StefaniBacaAtlas/about.html",
+    "title": "Stephanie Baca-Atlas",
+    "section": "",
+    "text": "Practical Exercise Template\n\n\nAdjust the YAML each week when doing a new exercise\n\n\n\n\n\n\n\n\nJun 24, 2026\n\n\nStefani Baca-Atlas\n\n\n\n\n\nNo matching items"
+  },
+  {
     "objectID": "attendees/DavidTitus/code/template.html",
     "href": "attendees/DavidTitus/code/template.html",
-    "title": "Practical Exercise Template",
+    "title": "Week 1: Basics in R",
     "section": "",
     "text": "Assignment. Add assignment details here. Update this section with the current week’s tasks or instructions, and any additional resources to complete the assignment."
   },
   {
     "objectID": "attendees/DavidTitus/code/template.html#introduction-to-dplyr",
     "href": "attendees/DavidTitus/code/template.html#introduction-to-dplyr",
-    "title": "Practical Exercise Template",
+    "title": "Week 1: Basics in R",
     "section": "Introduction to dplyr",
-    "text": "Introduction to dplyr\n\nlibrary(dplyr)\n\nstarwars |&gt;\n  mutate(name, bmi = mass / ((height / 100)^2)) |&gt;\n  select(name:mass, bmi)\n\n# A tibble: 87 × 4\n   name               height  mass   bmi\n   &lt;chr&gt;               &lt;int&gt; &lt;dbl&gt; &lt;dbl&gt;\n 1 Luke Skywalker        172    77  26.0\n 2 C-3PO                 167    75  26.9\n 3 R2-D2                  96    32  34.7\n 4 Darth Vader           202   136  33.3\n 5 Leia Organa           150    49  21.8\n 6 Owen Lars             178   120  37.9\n 7 Beru Whitesun Lars    165    75  27.5\n 8 R5-D4                  97    32  34.0\n 9 Biggs Darklighter     183    84  25.1\n10 Obi-Wan Kenobi        182    77  23.2\n# ℹ 77 more rows"
+    "text": "Introduction to dplyr\n\nlibrary(dplyr)\n\nstarwars |&gt;\n  mutate(bmi = mass / ((height / 100)^2)) |&gt;\n  select(name:mass, bmi)\n\n# A tibble: 87 × 4\n   name               height  mass   bmi\n   &lt;chr&gt;               &lt;int&gt; &lt;dbl&gt; &lt;dbl&gt;\n 1 Luke Skywalker        172    77  26.0\n 2 C-3PO                 167    75  26.9\n 3 R2-D2                  96    32  34.7\n 4 Darth Vader           202   136  33.3\n 5 Leia Organa           150    49  21.8\n 6 Owen Lars             178   120  37.9\n 7 Beru Whitesun Lars    165    75  27.5\n 8 R5-D4                  97    32  34.0\n 9 Biggs Darklighter     183    84  25.1\n10 Obi-Wan Kenobi        182    77  23.2\n# ℹ 77 more rows"
   },
   {
     "objectID": "attendees/DavidTitus/code/template.html#introduction-to-ggplot2",
     "href": "attendees/DavidTitus/code/template.html#introduction-to-ggplot2",
-    "title": "Practical Exercise Template",
+    "title": "Week 1: Basics in R",
     "section": "Introduction to ggplot2",
     "text": "Introduction to ggplot2\n\nlibrary(ggplot2)\n\nggplot(mpg, aes(displ, hwy, colour = class)) +\n  geom_point()"
   },
@@ -754,20 +789,6 @@
     "title": "The Whole Game Pracice",
     "section": "",
     "text": "Assignment. Practice for Dr. Julianne Clina’s introduction to R presentation. This Quarto document will be used to practice my first GitHub pull request\n\n# Hello R-LAB\nmessage(\"My first GitHub push worked!\")\nx &lt;- 1:10\nmean(x)\n\n[1] 5.5"
-  },
-  {
-    "objectID": "attendees/JessicaKeller/code/whole-game 6-30.html#introduction-to-dplyr",
-    "href": "attendees/JessicaKeller/code/whole-game 6-30.html#introduction-to-dplyr",
-    "title": "The Whole Game Pracice",
-    "section": "Introduction to dplyr",
-    "text": "Introduction to dplyr\n\nlibrary(dplyr)\n\nstarwars |&gt;\n  mutate(name, bmi = mass / ((height / 100)^2)) |&gt;\n  select(name:mass, bmi)\n\n# A tibble: 87 × 4\n   name               height  mass   bmi\n   &lt;chr&gt;               &lt;int&gt; &lt;dbl&gt; &lt;dbl&gt;\n 1 Luke Skywalker        172    77  26.0\n 2 C-3PO                 167    75  26.9\n 3 R2-D2                  96    32  34.7\n 4 Darth Vader           202   136  33.3\n 5 Leia Organa           150    49  21.8\n 6 Owen Lars             178   120  37.9\n 7 Beru Whitesun Lars    165    75  27.5\n 8 R5-D4                  97    32  34.0\n 9 Biggs Darklighter     183    84  25.1\n10 Obi-Wan Kenobi        182    77  23.2\n# ℹ 77 more rows"
-  },
-  {
-    "objectID": "attendees/JessicaKeller/code/whole-game 6-30.html#introduction-to-ggplot2",
-    "href": "attendees/JessicaKeller/code/whole-game 6-30.html#introduction-to-ggplot2",
-    "title": "The Whole Game Pracice",
-    "section": "Introduction to ggplot2",
-    "text": "Introduction to ggplot2\n\nlibrary(ggplot2)\n\nggplot(mpg, aes(displ, hwy, colour = class)) +\n  geom_point()"
   },
   {
     "objectID": "attendees/JessicaKeller/about.html",
@@ -802,7 +823,7 @@
     "href": "attendees/MelissaJenkins/code/template.html#introduction-to-dplyr",
     "title": "Practical Exercise Template",
     "section": "Introduction to dplyr",
-    "text": "Introduction to dplyr\n\nlibrary(dplyr)\n\nstarwars |&gt;\n  mutate(name, bmi = mass / ((height / 100)^2)) |&gt;\n  select(name:mass, bmi)\n\n# A tibble: 87 × 4\n   name               height  mass   bmi\n   &lt;chr&gt;               &lt;int&gt; &lt;dbl&gt; &lt;dbl&gt;\n 1 Luke Skywalker        172    77  26.0\n 2 C-3PO                 167    75  26.9\n 3 R2-D2                  96    32  34.7\n 4 Darth Vader           202   136  33.3\n 5 Leia Organa           150    49  21.8\n 6 Owen Lars             178   120  37.9\n 7 Beru Whitesun Lars    165    75  27.5\n 8 R5-D4                  97    32  34.0\n 9 Biggs Darklighter     183    84  25.1\n10 Obi-Wan Kenobi        182    77  23.2\n# ℹ 77 more rows"
+    "text": "Introduction to dplyr\n\nlibrary(dplyr)\n\nstarwars |&gt;\n  mutate(bmi = mass / ((height / 100)^2)) |&gt;\n  select(name:mass, bmi)\n\n# A tibble: 87 × 4\n   name               height  mass   bmi\n   &lt;chr&gt;               &lt;int&gt; &lt;dbl&gt; &lt;dbl&gt;\n 1 Luke Skywalker        172    77  26.0\n 2 C-3PO                 167    75  26.9\n 3 R2-D2                  96    32  34.7\n 4 Darth Vader           202   136  33.3\n 5 Leia Organa           150    49  21.8\n 6 Owen Lars             178   120  37.9\n 7 Beru Whitesun Lars    165    75  27.5\n 8 R5-D4                  97    32  34.0\n 9 Biggs Darklighter     183    84  25.1\n10 Obi-Wan Kenobi        182    77  23.2\n# ℹ 77 more rows"
   },
   {
     "objectID": "attendees/MelissaJenkins/code/template.html#introduction-to-ggplot2",
@@ -844,7 +865,7 @@
     "href": "attendees/BrianHelsel/code/template.html#introduction-to-dplyr",
     "title": "Practical Exercise Template",
     "section": "Introduction to dplyr",
-    "text": "Introduction to dplyr\n\nlibrary(dplyr)\n\nstarwars |&gt;\n  mutate(name, bmi = mass / ((height / 100)^2)) |&gt;\n  select(name:mass, bmi)\n\n# A tibble: 87 × 4\n   name               height  mass   bmi\n   &lt;chr&gt;               &lt;int&gt; &lt;dbl&gt; &lt;dbl&gt;\n 1 Luke Skywalker        172    77  26.0\n 2 C-3PO                 167    75  26.9\n 3 R2-D2                  96    32  34.7\n 4 Darth Vader           202   136  33.3\n 5 Leia Organa           150    49  21.8\n 6 Owen Lars             178   120  37.9\n 7 Beru Whitesun Lars    165    75  27.5\n 8 R5-D4                  97    32  34.0\n 9 Biggs Darklighter     183    84  25.1\n10 Obi-Wan Kenobi        182    77  23.2\n# ℹ 77 more rows"
+    "text": "Introduction to dplyr\n\nlibrary(dplyr)\n\nstarwars |&gt;\n  mutate(bmi = mass / ((height / 100)^2)) |&gt;\n  select(name:mass, bmi)\n\n# A tibble: 87 × 4\n   name               height  mass   bmi\n   &lt;chr&gt;               &lt;int&gt; &lt;dbl&gt; &lt;dbl&gt;\n 1 Luke Skywalker        172    77  26.0\n 2 C-3PO                 167    75  26.9\n 3 R2-D2                  96    32  34.7\n 4 Darth Vader           202   136  33.3\n 5 Leia Organa           150    49  21.8\n 6 Owen Lars             178   120  37.9\n 7 Beru Whitesun Lars    165    75  27.5\n 8 R5-D4                  97    32  34.0\n 9 Biggs Darklighter     183    84  25.1\n10 Obi-Wan Kenobi        182    77  23.2\n# ℹ 77 more rows"
   },
   {
     "objectID": "attendees/BrianHelsel/code/template.html#introduction-to-ggplot2",
@@ -879,7 +900,7 @@
     "href": "attendees/AshlynBarry/code/template.html#introduction-to-dplyr",
     "title": "Practical Exercise Template",
     "section": "Introduction to dplyr",
-    "text": "Introduction to dplyr\n\nlibrary(dplyr)\n\nstarwars |&gt;\n  mutate(name, bmi = mass / ((height / 100)^2)) |&gt;\n  select(name:mass, bmi)\n\n# A tibble: 87 × 4\n   name               height  mass   bmi\n   &lt;chr&gt;               &lt;int&gt; &lt;dbl&gt; &lt;dbl&gt;\n 1 Luke Skywalker        172    77  26.0\n 2 C-3PO                 167    75  26.9\n 3 R2-D2                  96    32  34.7\n 4 Darth Vader           202   136  33.3\n 5 Leia Organa           150    49  21.8\n 6 Owen Lars             178   120  37.9\n 7 Beru Whitesun Lars    165    75  27.5\n 8 R5-D4                  97    32  34.0\n 9 Biggs Darklighter     183    84  25.1\n10 Obi-Wan Kenobi        182    77  23.2\n# ℹ 77 more rows"
+    "text": "Introduction to dplyr\n\nlibrary(dplyr)\n\nstarwars |&gt;\n  mutate(bmi = mass / ((height / 100)^2)) |&gt;\n  select(name:mass, bmi)\n\n# A tibble: 87 × 4\n   name               height  mass   bmi\n   &lt;chr&gt;               &lt;int&gt; &lt;dbl&gt; &lt;dbl&gt;\n 1 Luke Skywalker        172    77  26.0\n 2 C-3PO                 167    75  26.9\n 3 R2-D2                  96    32  34.7\n 4 Darth Vader           202   136  33.3\n 5 Leia Organa           150    49  21.8\n 6 Owen Lars             178   120  37.9\n 7 Beru Whitesun Lars    165    75  27.5\n 8 R5-D4                  97    32  34.0\n 9 Biggs Darklighter     183    84  25.1\n10 Obi-Wan Kenobi        182    77  23.2\n# ℹ 77 more rows"
   },
   {
     "objectID": "attendees/AshlynBarry/code/template.html#introduction-to-ggplot2",
@@ -900,7 +921,7 @@
     "href": "attendees/AbassBabatunde/code/template.html#introduction-to-dplyr",
     "title": "Practical Exercise Template",
     "section": "Introduction to dplyr",
-    "text": "Introduction to dplyr\n\nlibrary(dplyr)\n\nstarwars |&gt;\n  mutate(name, bmi = mass / ((height / 100)^2)) |&gt;\n  select(name:mass, bmi)\n\n# A tibble: 87 × 4\n   name               height  mass   bmi\n   &lt;chr&gt;               &lt;int&gt; &lt;dbl&gt; &lt;dbl&gt;\n 1 Luke Skywalker        172    77  26.0\n 2 C-3PO                 167    75  26.9\n 3 R2-D2                  96    32  34.7\n 4 Darth Vader           202   136  33.3\n 5 Leia Organa           150    49  21.8\n 6 Owen Lars             178   120  37.9\n 7 Beru Whitesun Lars    165    75  27.5\n 8 R5-D4                  97    32  34.0\n 9 Biggs Darklighter     183    84  25.1\n10 Obi-Wan Kenobi        182    77  23.2\n# ℹ 77 more rows"
+    "text": "Introduction to dplyr\n\nlibrary(dplyr)\n\nstarwars |&gt;\n  mutate(bmi = mass / ((height / 100)^2)) |&gt;\n  select(name:mass, bmi)\n\n# A tibble: 87 × 4\n   name               height  mass   bmi\n   &lt;chr&gt;               &lt;int&gt; &lt;dbl&gt; &lt;dbl&gt;\n 1 Luke Skywalker        172    77  26.0\n 2 C-3PO                 167    75  26.9\n 3 R2-D2                  96    32  34.7\n 4 Darth Vader           202   136  33.3\n 5 Leia Organa           150    49  21.8\n 6 Owen Lars             178   120  37.9\n 7 Beru Whitesun Lars    165    75  27.5\n 8 R5-D4                  97    32  34.0\n 9 Biggs Darklighter     183    84  25.1\n10 Obi-Wan Kenobi        182    77  23.2\n# ℹ 77 more rows"
   },
   {
     "objectID": "attendees/AbassBabatunde/code/template.html#introduction-to-ggplot2",
@@ -921,7 +942,7 @@
     "href": "attendees/JohnHeap/code/template.html#introduction-to-dplyr",
     "title": "Practical Exercise Template",
     "section": "Introduction to dplyr",
-    "text": "Introduction to dplyr\n\nlibrary(dplyr)\n\nstarwars |&gt;\n  mutate(name, bmi = mass / ((height / 100)^2)) |&gt;\n  select(name:mass, bmi)\n\n# A tibble: 87 × 4\n   name               height  mass   bmi\n   &lt;chr&gt;               &lt;int&gt; &lt;dbl&gt; &lt;dbl&gt;\n 1 Luke Skywalker        172    77  26.0\n 2 C-3PO                 167    75  26.9\n 3 R2-D2                  96    32  34.7\n 4 Darth Vader           202   136  33.3\n 5 Leia Organa           150    49  21.8\n 6 Owen Lars             178   120  37.9\n 7 Beru Whitesun Lars    165    75  27.5\n 8 R5-D4                  97    32  34.0\n 9 Biggs Darklighter     183    84  25.1\n10 Obi-Wan Kenobi        182    77  23.2\n# ℹ 77 more rows"
+    "text": "Introduction to dplyr\n\nlibrary(dplyr)\n\nstarwars |&gt;\n  mutate(bmi = mass / ((height / 100)^2)) |&gt;\n  select(name:mass, bmi)\n\n# A tibble: 87 × 4\n   name               height  mass   bmi\n   &lt;chr&gt;               &lt;int&gt; &lt;dbl&gt; &lt;dbl&gt;\n 1 Luke Skywalker        172    77  26.0\n 2 C-3PO                 167    75  26.9\n 3 R2-D2                  96    32  34.7\n 4 Darth Vader           202   136  33.3\n 5 Leia Organa           150    49  21.8\n 6 Owen Lars             178   120  37.9\n 7 Beru Whitesun Lars    165    75  27.5\n 8 R5-D4                  97    32  34.0\n 9 Biggs Darklighter     183    84  25.1\n10 Obi-Wan Kenobi        182    77  23.2\n# ℹ 77 more rows"
   },
   {
     "objectID": "attendees/JohnHeap/code/template.html#introduction-to-ggplot2",
@@ -942,7 +963,7 @@
     "href": "attendees/BethanyForseth/code/template.html#introduction-to-dplyr",
     "title": "Practical Exercise Template",
     "section": "Introduction to dplyr",
-    "text": "Introduction to dplyr\n\nlibrary(dplyr)\n\nstarwars |&gt;\n  mutate(name, bmi = mass / ((height / 100)^2)) |&gt;\n  select(name:mass, bmi)\n\n# A tibble: 87 × 4\n   name               height  mass   bmi\n   &lt;chr&gt;               &lt;int&gt; &lt;dbl&gt; &lt;dbl&gt;\n 1 Luke Skywalker        172    77  26.0\n 2 C-3PO                 167    75  26.9\n 3 R2-D2                  96    32  34.7\n 4 Darth Vader           202   136  33.3\n 5 Leia Organa           150    49  21.8\n 6 Owen Lars             178   120  37.9\n 7 Beru Whitesun Lars    165    75  27.5\n 8 R5-D4                  97    32  34.0\n 9 Biggs Darklighter     183    84  25.1\n10 Obi-Wan Kenobi        182    77  23.2\n# ℹ 77 more rows"
+    "text": "Introduction to dplyr\n\nlibrary(dplyr)\n\nstarwars |&gt;\n  mutate(bmi = mass / ((height / 100)^2)) |&gt;\n  select(name:mass, bmi)\n\n# A tibble: 87 × 4\n   name               height  mass   bmi\n   &lt;chr&gt;               &lt;int&gt; &lt;dbl&gt; &lt;dbl&gt;\n 1 Luke Skywalker        172    77  26.0\n 2 C-3PO                 167    75  26.9\n 3 R2-D2                  96    32  34.7\n 4 Darth Vader           202   136  33.3\n 5 Leia Organa           150    49  21.8\n 6 Owen Lars             178   120  37.9\n 7 Beru Whitesun Lars    165    75  27.5\n 8 R5-D4                  97    32  34.0\n 9 Biggs Darklighter     183    84  25.1\n10 Obi-Wan Kenobi        182    77  23.2\n# ℹ 77 more rows"
   },
   {
     "objectID": "attendees/BethanyForseth/code/template.html#introduction-to-ggplot2",
